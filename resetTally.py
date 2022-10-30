@@ -24,6 +24,9 @@ def clear_and_tally() -> None:
     Sheets.weeklyChart.delete_rows(2, 100)
 
 if __name__ == "__main__":
-    clear_and_tally()
-    with open("resetTallyLog.txt", "a") as f:
-        f.write(f"Last run at {time.ctime()}\n")
+    try:
+        clear_and_tally()
+    except Exception as e:
+        logger.exception(e)
+
+    logger.info("\nLast Run at %s \n --------------------------------------- \n", time.ctime())
