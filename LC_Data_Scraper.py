@@ -1,6 +1,7 @@
 import os, sys
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+import selenium.common.exceptions
 import time
 import parsedatetime as pdt
 from datetime import datetime, timedelta
@@ -32,8 +33,13 @@ def get_questions(username: str) -> list[str]:
     browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     time.sleep(3)
 
-    Table = browser.find_element("xpath",
-                                r'/html/body/div[1]/div/div/div/div[2]/div[3]/div/div/div[2]')
+    try:
+        Table = browser.find_element("xpath",
+                                r'/html/body/div[1]/div/div/div/div[2]/div[5]/div/div/div[2]')
+    except selenium.common.exceptions.NoSuchElementException:
+        Table = browser.find_element("xpath",
+                                r'/html/body/div[1]/div/div/div/div[2]/div[3]/div/div/div[2]')    
+    
     Containers = Table.find_elements("xpath", "*")
 
     for container in Containers:
@@ -42,7 +48,7 @@ def get_questions(username: str) -> list[str]:
         
         # making sure that the questions were done only in the last one hour
         datetime_obj = cal.parseDT(Child[1].text)[0]
-        cutoff = timedelta(hours=1)
+        cutoff = timedelta(days=5)
         if (datetime.now() - datetime_obj < cutoff):
             if Child[0].text:
                 rval.append(Child[0].text)
@@ -53,4 +59,5 @@ def get_questions(username: str) -> list[str]:
 
 if __name__ == "__main__":
     print(get_questions("aakarsh_11235"))
+    print(get_questions("vartika_7"))
     browser.quit()

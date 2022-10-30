@@ -257,3 +257,31 @@ Read port: 43339
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIdhomO/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:51205/devtools/browser/5e1d6c8d-7020-4c4c-8172-d985d216ea1e
+1667162019732	geckodriver	INFO	Listening on 127.0.0.1:38359
+1667162020120	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "36035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGvUqBH"
+*** You are running in headless mode.
+Gtk-Message: 02:03:40.139: Failed to load module "appmenu-gtk-module"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1667162020333	Marionette	INFO	Marionette enabled
+1667162020336	Marionette	INFO	Listening on port 33467
+WebDriver BiDi listening on ws://127.0.0.1:36035
+Read port: 33467
+1667162020550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGvUqBH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36035/devtools/browser/4945f111-b369-43b7-8840-ea4af4a0a197
+1667162028823	Marionette	INFO	Stopped listening on port 33467
+1667162057403	geckodriver	INFO	Listening on 127.0.0.1:56953
+1667162057855	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "38699" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8WAmCB"
+*** You are running in headless mode.
+Gtk-Message: 02:04:17.873: Failed to load module "appmenu-gtk-module"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1667162058144	Marionette	INFO	Marionette enabled
+1667162058146	Marionette	INFO	Listening on port 34163
+Read port: 34163
+WebDriver BiDi listening on ws://127.0.0.1:38699
+1667162058213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8WAmCB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38699/devtools/browser/0fc97584-7556-4f1f-a5b8-aa25271ec336
+1667162067804	Marionette	INFO	Stopped listening on port 34163
