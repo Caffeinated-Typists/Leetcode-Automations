@@ -31,8 +31,7 @@ jobs:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
         run: |
           echo "$GITHUB_WORKSPACE" >> $GITHUB_PATH
-          python scraper.py
-          # python test.py
+          python Sheets_API_Interface.py
           
       - name: commit files
         run: |
