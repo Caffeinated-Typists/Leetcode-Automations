@@ -26,11 +26,7 @@ USERNAME_TO_INDEX:dict[str:int] = json.load(open("usernames.json", "r"))
 #getting and loading the sheet
 SCOPE = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
 # credentials = ServiceAccountCredentials.from_json_keyfile_name("creds.json", SCOPE)
-try:
-    env_creds = os.environ["GOOGLE_API_CRED"]
-    print(type(env_creds))
-except Exception:
-    print(Exception)
+env_creds = os.environ["GOOGLE_API_CRED"]
 credentials = ServiceAccountCredentials.from_json_keyfile_dict(json.load(env_creds), SCOPE)
 client = gspread.authorize(credentials)
 
