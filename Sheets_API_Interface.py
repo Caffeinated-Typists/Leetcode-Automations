@@ -10,7 +10,7 @@ from pprint import pprint
 import LC_Data_Scraper
 
 
-logging.basicConfig(filename="Sheets_API_Interface.log", level=logging.DEBUG)
+logging.basicConfig(filename="logs/Sheets_API_Interface.log", level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 GREEN_CELL:dict[str:dict[str:float]] = {"backgroundColor": 
