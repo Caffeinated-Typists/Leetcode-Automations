@@ -11,8 +11,8 @@ import os
 cal = pdt.Calendar()
 
 # initial configuration
-DRIVER_PATH:str = os.path.abspath("/home/afterchange/Downloads/Leetcode-Grind-Automation/msedgedriver")
-EDGE_PATH:str = r"/usr/bin/microsoft-edge"
+DRIVER_PATH:str = os.path.abspath(r"C:\Users\dell\Desktop\Projects\Leetcode-Automations\msedgedriver")
+EDGE_PATH:str = os.path.abspath(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge")
 driverService = Service(DRIVER_PATH)
 
 
