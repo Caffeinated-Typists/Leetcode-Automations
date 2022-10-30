@@ -29,9 +29,9 @@ SCOPE = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/aut
 try:
     env_creds = os.environ["GOOGLE_API_CRED"]
     print(type(env_creds))
-    credentials = ServiceAccountCredentials.from_json_keyfile_dict(json.load(), SCOPE)
 except Exception:
     print(Exception)
+credentials = ServiceAccountCredentials.from_json_keyfile_dict(json.load(env_creds), SCOPE)
 client = gspread.authorize(credentials)
 
 # opening the entire document
