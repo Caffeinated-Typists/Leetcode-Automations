@@ -27,6 +27,8 @@ USERNAME_TO_INDEX:dict[str:int] = json.load(open("usernames.json", "r"))
 SCOPE = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
 # credentials = ServiceAccountCredentials.from_json_keyfile_name("creds.json", SCOPE)
 env_creds = eval(os.environ["GOOGLE_API_CRED"])
+# f = open(r'C:\Users\dell\Desktop\Projects\Leetcode-Automations\creds.json', 'r')
+# env_creds = json.load(f)
 credentials = ServiceAccountCredentials.from_json_keyfile_dict(env_creds, SCOPE)
 client = gspread.authorize(credentials)
 
@@ -42,11 +44,11 @@ All_questions = (questionsTracking.col_values(1)[1:])
 # creating hashmap of the questions
 Question_index = {}
 for i in range(len(All_questions)):
-    Question_index[All_questions[i]] = i + 2
+    Question_index[All_questions[i]] = i + 1
 # Creating hashmap for questions of this week
 weekly_question_index = {}
 for i in range(len(weeklyQues)):
-    Question_index[weeklyQues[i]] = i + 2
+    Question_index[weeklyQues[i]] = i + 3
 
 def A1_notation(col:int, row:int) -> str:
     """Function to convert the index to A1 notation"""
@@ -62,15 +64,15 @@ def add_to_sheet(username: str) -> None:
         # check if the question is already present
         if question not in Question_index:
             # update the hashmap
-            Question_index[question] = len(Question_index) + 2
+            Question_index[question] = len(Question_index) + 1
             # adding to the questions tracking sheet
-            questionsTracking.insert_row([question], index=len(All_questions) + 2)
+            questionsTracking.insert_row([question], index=Question_index[question])
             All_questions.insert(len(All_questions), question)
 
         if question not in weekly_question_index:
             weekly_question_index[question] = len(weekly_question_index) + 3
             # add the question to the weekly sheet
-            weeklyChart.insert_row([question, "", "", "", "", "", "", "", "", "", ""], index=Question_index[question])
+            weeklyChart.insert_row([question, "", "", "", "", "", "", "", "", "", ""], index=weekly_question_index[question])
             weeklyQues.insert(len(weeklyQues), question)
 
         # update the sheet
