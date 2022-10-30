@@ -1,9 +1,16 @@
 import json
+import traceback
+import sys
+import logging
 import time
 import typing
 import gspread 
 from oauth2client.service_account import ServiceAccountCredentials
 import LC_Data_Scraper
+
+
+logging.basicConfig(filename="logs/Sheets_API_Interface.log", level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 GREEN_CELL:dict[str:dict[str:float]] = {"backgroundColor": 
                                             {"red": 0.0, 
@@ -12,6 +19,9 @@ GREEN_CELL:dict[str:dict[str:float]] = {"backgroundColor":
                                         "horizontalAlignment": "CENTER",
                                         }
 USERNAME_TO_INDEX:dict[str:int] = json.load(open("usernames.json", "r"))
+
+
+
 
 #getting and loading the sheet
 SCOPE = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
@@ -74,6 +84,8 @@ def add_weekly_questions() -> None:
     LC_Data_Scraper.browser.quit()
 
 if __name__ == "__main__":
-    add_weekly_questions()
-    with open("Sheets_API_Interface.log", "a") as f:
-        f.write(f"Last Run at {time.ctime()}\n")
+    try:
+        add_weekly_questions()
+    except Exception as e:
+        logger.exception(e)
+    logger.info("\nLast Run at %s \n --------------------------------------- \n", time.ctime())
