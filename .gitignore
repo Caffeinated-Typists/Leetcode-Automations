@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 #credentials
-*.json
+creds.json
 .vscode

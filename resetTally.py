@@ -1,6 +1,11 @@
 from pprint import pprint
 import Sheets_API_Interface as Sheets
 import time
+import logging
+
+
+logging.basicConfig(filename="Sheets_API_Interface.log", level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 IDENTIFYING_CHARACTER:str = "✔"
 Tally = Sheets.sheet[2]
