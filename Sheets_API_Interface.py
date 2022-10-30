@@ -1,4 +1,4 @@
-import json
+import json, os
 import traceback
 import sys
 import logging
@@ -25,7 +25,8 @@ USERNAME_TO_INDEX:dict[str:int] = json.load(open("usernames.json", "r"))
 
 #getting and loading the sheet
 SCOPE = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
-credentials = ServiceAccountCredentials.from_json_keyfile_name("creds.json", SCOPE)
+# credentials = ServiceAccountCredentials.from_json_keyfile_name("creds.json", SCOPE)
+credentials = ServiceAccountCredentials.from_json_keyfile_dict(json.load(os.environ["GOOGLE_API_CRED"]), SCOPE)
 client = gspread.authorize(credentials)
 
 # opening the entire document
