@@ -1,12 +1,16 @@
-name: run main.py
+name: Scraper
 
 on:
+  push:
+    branches: [main]
   schedule:
-    - cron: '0-59/10 * * * *'
+    - cron: '15 0-3/1,3-11/2,12-23/1 * * *'
+  workflow_dispatch:
 
 jobs:
-  build:
+  Scrape:
     runs-on: ubuntu-latest
+
     steps:
 
       - name: checkout repo content
@@ -23,9 +27,12 @@ jobs:
           pip install -r requirements.txt
           
       - name: execute py script # run main.py
-        env:
+        env:  
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python Sheets_API_Interface.py
+        run: |
+          echo "$GITHUB_WORKSPACE" >> $GITHUB_PATH
+          python scraper.py
+          # python test.py
           
       - name: commit files
         run: |
