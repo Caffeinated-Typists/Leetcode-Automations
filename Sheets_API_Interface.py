@@ -48,7 +48,7 @@ for i in range(len(All_questions)):
 # Creating hashmap for questions of this week
 weekly_question_index = {}
 for i in range(len(weeklyQues)):
-    Question_index[weeklyQues[i]] = i + 3
+    weekly_question_index[weeklyQues[i]] = i + 3
 
 def A1_notation(col:int, row:int) -> str:
     """Function to convert the index to A1 notation"""
