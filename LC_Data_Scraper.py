@@ -38,7 +38,7 @@ def get_questions(username: str) -> list[str]:
                                 r'/html/body/div[1]/div/div/div/div[2]/div[5]/div/div/div[2]')
     except selenium.common.exceptions.NoSuchElementException:
         Table = browser.find_element("xpath",
-                                r'/html/body/div[1]/div/div/div/div[2]/div[3]/div/div/div[2]')    
+                                r'/html/body/div[1]/div/div/div/div[2]/div[3]/div/div/div[2]')
     
     Containers = Table.find_elements("xpath", "*")
 
@@ -48,7 +48,7 @@ def get_questions(username: str) -> list[str]:
         
         # making sure that the questions were done only in the last one hour
         datetime_obj = cal.parseDT(Child[1].text)[0]
-        cutoff = timedelta(days=5)
+        cutoff = timedelta(hours=1)
         if (datetime.now() - datetime_obj < cutoff):
             if Child[0].text:
                 rval.append(Child[0].text)
