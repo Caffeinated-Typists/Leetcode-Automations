@@ -37,10 +37,10 @@ sheet = client.open("LC Automated").worksheets()
 
 weeklyChart = sheet[0]  # Open the sheet for keeping track of questions each week
 questionsTracking = sheet[1] # Sheet for keeping track of questions already done
-weeklyQues = weeklyChart.col_values(1)  # Get a list of all questions in this week
+weeklyQues = weeklyChart.col_values(1)[1::]  # Get a list of all questions in this week
 
 # list of all questions
-All_questions = (questionsTracking.col_values(1)[1:])
+All_questions = questionsTracking.col_values(1)[1:]
 # creating hashmap of the questions
 Question_index = {}
 for i in range(len(All_questions)):
