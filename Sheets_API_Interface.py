@@ -11,7 +11,7 @@ import LC_Data_Scraper
 WEEKLY_SHEET_ROW_OFFSET:int = 2
 ALL_SHEET_ROW_OFFSET:int = 1
 
-logging.basicConfig(filename="logs/Sheets_API_Interface.log", level=logging.DEBUG)
+logging.basicConfig(filename="logs/Sheets_API_Interface.log", level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
 GREEN_CELL:dict[str:dict[str:float]] = {"backgroundColor": 
