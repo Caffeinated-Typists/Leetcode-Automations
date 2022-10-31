@@ -8,6 +8,8 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import LC_Data_Scraper
 
+WEEKLY_SHEET_ROW_OFFSET:int = 2
+ALL_SHEET_ROW_OFFSET:int = 1
 
 logging.basicConfig(filename="logs/Sheets_API_Interface.log", level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -37,18 +39,18 @@ sheet = client.open("LC Automated").worksheets()
 
 weeklyChart = sheet[0]  # Open the sheet for keeping track of questions each week
 questionsTracking = sheet[1] # Sheet for keeping track of questions already done
-weeklyQues = weeklyChart.col_values(1)[1::]  # Get a list of all questions in this week
+weeklyQues = weeklyChart.col_values(1)[ALL_SHEET_ROW_OFFSET::]  # Get a list of all questions in this week
 
 # list of all questions
-All_questions = questionsTracking.col_values(1)[1:]
+All_questions = questionsTracking.col_values(1)[WEEKLY_SHEET_ROW_OFFSET::]
 # creating hashmap of the questions
 Question_index = {}
 for i in range(len(All_questions)):
-    Question_index[All_questions[i]] = i + 1
+    Question_index[All_questions[i]] = i + ALL_SHEET_ROW_OFFSET
 # Creating hashmap for questions of this week
 weekly_question_index = {}
 for i in range(len(weeklyQues)):
-    weekly_question_index[weeklyQues[i]] = i + 3
+    weekly_question_index[weeklyQues[i]] = i + WEEKLY_SHEET_ROW_OFFSET
 
 def A1_notation(col:int, row:int) -> str:
     """Function to convert the index to A1 notation"""
@@ -64,13 +66,13 @@ def add_to_sheet(username: str) -> None:
         # check if the question is already present
         if question not in Question_index:
             # update the hashmap
-            Question_index[question] = len(Question_index) + 1
+            Question_index[question] = len(Question_index) + ALL_SHEET_ROW_OFFSET
             # adding to the questions tracking sheet
             questionsTracking.insert_row([question], index=Question_index[question])
             All_questions.insert(len(All_questions), question)
 
         if question not in weekly_question_index:
-            weekly_question_index[question] = len(weekly_question_index) + 3
+            weekly_question_index[question] = len(weekly_question_index) + WEEKLY_SHEET_ROW_OFFSET
             # add the question to the weekly sheet
             weeklyChart.insert_row([question, "", "", "", "", "", "", "", "", "", ""], index=weekly_question_index[question])
             weeklyQues.insert(len(weeklyQues), question)
