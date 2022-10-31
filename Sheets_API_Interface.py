@@ -87,7 +87,7 @@ def add_weekly_questions() -> None:
     for i in USERNAME_TO_INDEX:
         add_to_sheet(i)
         # Sleep to not blow up API write rate limit
-        time.sleep(0.3)
+        time.sleep(0.5)
         
     LC_Data_Scraper.browser.quit()
 
