@@ -479,3 +479,26 @@ DevTools listening on ws://127.0.0.1:33219/devtools/browser/065e61a3-5ea2-4a5e-9
 1667211401933	Marionette	INFO	Stopped listening on port 35195
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1667212160453	geckodriver	INFO	Listening on 127.0.0.1:63268
+1667212163488	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "63269" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile9ndTBZ"
+*** You are running in headless mode.
+1667212164067	Marionette	INFO	Marionette enabled
+1667212164072	Marionette	INFO	Listening on port 63278
+Read port: 63278
+WebDriver BiDi listening on ws://127.0.0.1:63269
+1667212164213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile9ndTBZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63269/devtools/browser/cd4e73b1-7639-4d0b-a5b5-2e5a1a060cd2
+1667212209478	geckodriver	INFO	Listening on 127.0.0.1:63503
+1667212212548	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "63504" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileoRR5Zk"
+*** You are running in headless mode.
+1667212213074	Marionette	INFO	Marionette enabled
+1667212213079	Marionette	INFO	Listening on port 63513
+Read port: 63513
+WebDriver BiDi listening on ws://127.0.0.1:63504
+1667212213195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileoRR5Zk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63504/devtools/browser/d01652b0-9317-48c0-9757-6a387ad6d031
+1667212277630	Marionette	INFO	Stopped listening on port 63513
