@@ -61,6 +61,8 @@ def add_to_sheet(username: str) -> None:
     """Function to add the questions done by the user to the sheet"""
     # get the questions done by the user
     questions:list[str] = LC_Data_Scraper.get_questions(username)
+    logging.info(f"Got questions for {username}")
+    logging.info(questions)
     # add the questions to the sheet
     for question in questions:
         # check if the question is already present
