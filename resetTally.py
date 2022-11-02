@@ -4,7 +4,7 @@ import time
 import logging
 
 
-logging.basicConfig(filename="logs/Sheets_API_Interface.log", level=logging.WARNING)
+logging.basicConfig(filename="logs/Sheets_API_Interface.log", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 IDENTIFYING_CHARACTER:str = "✔"
