@@ -39,10 +39,10 @@ sheet = client.open("LC Automated").worksheets()
 
 weeklyChart = sheet[0]  # Open the sheet for keeping track of questions each week
 questionsTracking = sheet[1] # Sheet for keeping track of questions already done
-weeklyQues = weeklyChart.col_values(1)[ALL_SHEET_ROW_OFFSET::]  # Get a list of all questions in this week
+weeklyQues = weeklyChart.col_values(1)[WEEKLY_SHEET_ROW_OFFSET::]  # Get a list of all questions in this week
 
 # list of all questions
-All_questions = questionsTracking.col_values(1)[WEEKLY_SHEET_ROW_OFFSET::]
+All_questions = questionsTracking.col_values(1)[ALL_SHEET_ROW_OFFSET::]
 # creating hashmap of the questions
 Question_index = {}
 for i in range(len(All_questions)):
@@ -68,8 +68,8 @@ def add_to_sheet(username: str) -> None:
             # update the hashmap
             Question_index[question] = len(Question_index) + ALL_SHEET_ROW_OFFSET
             # adding to the questions tracking sheet
-            questionsTracking.insert_row([question], index=Question_index[question])
-            All_questions.insert(len(All_questions) + 2, question)
+            questionsTracking.insert_row([question], index=Question_index[question] + ALL_SHEET_ROW_OFFSET)
+            All_questions.insert(len(All_questions), question)
 
         if question not in weekly_question_index:
             weekly_question_index[question] = len(weekly_question_index) + WEEKLY_SHEET_ROW_OFFSET
