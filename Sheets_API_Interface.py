@@ -8,7 +8,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import LC_Data_Scraper
 
-WEEKLY_SHEET_ROW_OFFSET:int = 1
+WEEKLY_SHEET_ROW_OFFSET:int = 2
 ALL_SHEET_ROW_OFFSET:int = 1
 
 logging.basicConfig(filename="logs/Sheets_API_Interface.log", level=logging.INFO)
