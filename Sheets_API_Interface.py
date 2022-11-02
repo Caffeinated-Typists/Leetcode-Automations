@@ -69,7 +69,7 @@ def add_to_sheet(username: str) -> None:
             Question_index[question] = len(Question_index) + ALL_SHEET_ROW_OFFSET
             # adding to the questions tracking sheet
             questionsTracking.insert_row([question], index=Question_index[question])
-            All_questions.insert(len(All_questions), question)
+            All_questions.insert(len(All_questions) + 2, question)
 
         if question not in weekly_question_index:
             weekly_question_index[question] = len(weekly_question_index) + WEEKLY_SHEET_ROW_OFFSET
