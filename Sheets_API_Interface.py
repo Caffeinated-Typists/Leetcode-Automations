@@ -2,11 +2,11 @@ import json, os
 import traceback
 import sys
 import logging
-import datetime
 import pytz
 import typing
 import gspread 
 from oauth2client.service_account import ServiceAccountCredentials
+from datetime import datetime
 import LC_Data_Scraper
 
 WEEKLY_SHEET_ROW_OFFSET:int = 2
