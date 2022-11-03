@@ -704,3 +704,14 @@ INFO:__main__:
 Last Run at Thu Nov  3 11:47:48 2022 
  --------------------------------------- 
 
+ERROR:__main__:name 'time' is not defined
+Traceback (most recent call last):
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/Sheets_API_Interface.py", line 104, in <module>
+    add_weekly_questions()
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/Sheets_API_Interface.py", line 98, in add_weekly_questions
+    time.sleep(0.3)
+NameError: name 'time' is not defined
+INFO:__main__:
+Last Run at Fri Nov 04 01:14:11 2022 
+ --------------------------------------- 
+
