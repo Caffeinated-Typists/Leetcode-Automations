@@ -48,7 +48,7 @@ def get_questions(username: str) -> list[str]:
         
         # making sure that the questions were done only in the last one hour
         datetime_obj = cal.parseDT(Child[1].text)[0]
-        cutoff = timedelta(hours=5)
+        cutoff = timedelta(hours=7)
         if (datetime.now() - datetime_obj < cutoff):
             if Child[0].text:
                 rval.append(Child[0].text)
