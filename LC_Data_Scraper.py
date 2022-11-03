@@ -6,6 +6,9 @@ import time
 import parsedatetime as pdt
 from datetime import datetime, timedelta
 
+TIME_DELTA_HOUR:int = 5
+TIME_DELTA_DAY:int = 0
+
 cal = pdt.Calendar()
 options = Options()
 firefox_options = Options()
@@ -48,7 +51,7 @@ def get_questions(username: str) -> list[str]:
         
         # making sure that the questions were done only in the last one hour
         datetime_obj = cal.parseDT(Child[1].text)[0]
-        cutoff = timedelta(hours=7)
+        cutoff = timedelta(hours=TIME_DELTA_HOUR, days=TIME_DELTA_DAY)
         if (datetime.now() - datetime_obj < cutoff):
             if Child[0].text:
                 rval.append(Child[0].text)
