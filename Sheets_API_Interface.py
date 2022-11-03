@@ -62,8 +62,10 @@ def add_to_sheet(username: str) -> None:
     """Function to add the questions done by the user to the sheet"""
     # get the questions done by the user
     questions:list[str] = LC_Data_Scraper.get_questions(username)
-    logging.info(f"Got questions for {username}")
-    logging.info(questions)
+    # only adding to logs if the list is not empty
+    if questions:
+        logging.info(f"Got questions for {username}")
+        logging.info(questions)
     # add the questions to the sheet
     for question in questions:
         # check if the question is already present
@@ -71,13 +73,16 @@ def add_to_sheet(username: str) -> None:
             # update the hashmap
             Question_index[question] = len(Question_index) + ALL_SHEET_ROW_OFFSET
             # adding to the questions tracking sheet
-            questionsTracking.insert_row([question], index=Question_index[question] + ALL_SHEET_ROW_OFFSET)
+            questionsTracking.insert_row([question], index=Question_index[question])
+            # logging the index of the cell as well
+            logging.info(f"Index of new row in questionsTracking: {Question_index[question]}")
             All_questions.insert(len(All_questions), question)
 
         if question not in weekly_question_index:
             weekly_question_index[question] = len(weekly_question_index) + WEEKLY_SHEET_ROW_OFFSET
             # add the question to the weekly sheet
             weeklyChart.insert_row([question, "", "", "", "", "", "", "", "", "", ""], index=weekly_question_index[question])
+            logging.info(f"Index of new row in weeklyChart: {weekly_question_index[question]}")
             weeklyQues.insert(len(weeklyQues), question)
 
         # update the sheet
