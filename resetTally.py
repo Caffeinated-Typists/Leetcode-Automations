@@ -29,4 +29,4 @@ if __name__ == "__main__":
     except Exception as e:
         logger.exception(e)
 
-    logger.info("\nLast Run at %s \n --------------------------------------- \n", time.ctime())
+    logger.info("\nLast Run at %s \n --------------------------------------- \n", (datetime.now(pytz.timezone('Asia/Kolkata'))).strftime("%a %b %d %H:%M:%S %Y"))

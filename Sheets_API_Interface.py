@@ -2,7 +2,8 @@ import json, os
 import traceback
 import sys
 import logging
-import time
+import datetime
+import pytz
 import typing
 import gspread 
 from oauth2client.service_account import ServiceAccountCredentials
@@ -98,4 +99,4 @@ if __name__ == "__main__":
         add_weekly_questions()
     except Exception as e:
         logger.exception(e)
-    logger.info("\nLast Run at %s \n --------------------------------------- \n", time.ctime())
+    logger.info("\nLast Run at %s \n --------------------------------------- \n",  (datetime.now(pytz.timezone('Asia/Kolkata'))).strftime("%a %b %d %H:%M:%S %Y"))
