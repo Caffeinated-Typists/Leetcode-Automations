@@ -998,3 +998,11 @@ INFO:__main__:
 Last Run at Fri Nov 04 23:19:27 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Maximum 69 Number', 'Reverse Vowels of a String']
+INFO:root:Index of new row in questionsTracking: 84
+INFO:root:Index of new row in weeklyChart: 26
+INFO:__main__:
+Last Run at Sat Nov 05 00:24:05 2022 
+ --------------------------------------- 
+
