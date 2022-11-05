@@ -1051,3 +1051,17 @@ INFO:__main__:
 Last Run at Sat Nov 05 09:10:51 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Running Sum of 1d Array', 'Add Two Integers', 'Build Array from Permutation']
+INFO:root:Index of new row in questionsTracking: 85
+INFO:root:Index of new row in weeklyChart: 28
+INFO:root:Index of new row in weeklyChart: 29
+INFO:root:Index of new row in questionsTracking: 86
+INFO:root:Index of new row in weeklyChart: 30
+INFO:root:Got questions for Zynade
+INFO:root:['Add Two Integers', 'Running Sum of 1d Array', 'Palindrome Number']
+INFO:root:Index of new row in weeklyChart: 31
+INFO:__main__:
+Last Run at Sat Nov 05 10:26:54 2022 
+ --------------------------------------- 
+
