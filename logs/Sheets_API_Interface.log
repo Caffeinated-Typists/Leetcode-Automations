@@ -1192,3 +1192,21 @@ INFO:__main__:
 Last Run at Sat Nov 05 21:18:54 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Build Array from Permutation']
+INFO:root:Got questions for upalsci
+INFO:root:['Toeplitz Matrix']
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Top K Frequent Elements']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Sort Characters By Frequency', 'The Number of Weak Characters in the Game']
+INFO:root:Got questions for Master1012
+INFO:root:['Longest Common Prefix', 'Roman to Integer', 'Palindrome Number', 'Two Sum']
+INFO:root:Index of new row in weeklyChart: 44
+INFO:root:Index of new row in questionsTracking: 94
+INFO:root:Index of new row in weeklyChart: 45
+INFO:root:Index of new row in weeklyChart: 46
+INFO:__main__:
+Last Run at Sat Nov 05 22:04:34 2022 
+ --------------------------------------- 
+
