@@ -72,7 +72,7 @@ def add_to_sheet(username: str) -> None:
         # check if the question is already present
         if question not in Question_index:
             # update the hashmap
-            Question_index[question] = len(Question_index) + ALL_SHEET_ROW_OFFSET
+            Question_index[question] = len(Question_index) + ALL_SHEET_ROW_OFFSET + 1
             # adding to the questions tracking sheet
             questionsTracking.insert_row([question], index=Question_index[question])
             # logging the index of the cell as well
@@ -80,7 +80,7 @@ def add_to_sheet(username: str) -> None:
             All_questions.insert(len(All_questions), question)
 
         if question not in weekly_question_index:
-            weekly_question_index[question] = len(weekly_question_index) + WEEKLY_SHEET_ROW_OFFSET
+            weekly_question_index[question] = len(weekly_question_index) + WEEKLY_SHEET_ROW_OFFSET + 1
             # add the question to the weekly sheet
             weeklyChart.insert_row([question, "", "", "", "", "", "", "", "", "", ""], index=weekly_question_index[question])
             logging.info(f"Index of new row in weeklyChart: {weekly_question_index[question]}")
