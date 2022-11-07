@@ -48,11 +48,11 @@ All_questions = questionsTracking.col_values(1)[ALL_SHEET_ROW_OFFSET::]
 # creating hashmap of the questions
 Question_index = {}
 for i in range(len(All_questions)):
-    Question_index[All_questions[i]] = i + ALL_SHEET_ROW_OFFSET
+    Question_index[All_questions[i]] = i + ALL_SHEET_ROW_OFFSET + 1
 # Creating hashmap for questions of this week
 weekly_question_index = {}
 for i in range(len(weeklyQues)):
-    weekly_question_index[weeklyQues[i]] = i + WEEKLY_SHEET_ROW_OFFSET
+    weekly_question_index[weeklyQues[i]] = i + WEEKLY_SHEET_ROW_OFFSET + 1
 
 def A1_notation(col:int, row:int) -> str:
     """Function to convert the index to A1 notation"""
