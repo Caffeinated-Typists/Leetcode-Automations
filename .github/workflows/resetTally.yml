@@ -1,4 +1,4 @@
-name: Scraper
+name: Tally
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Scrape:
+  Tally:
     runs-on: ubuntu-latest
 
     steps:
