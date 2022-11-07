@@ -20,7 +20,7 @@ def clear_and_tally() -> None:
     Tally.update(Sheets.A1_notation(1, week_number+1), f"Week {week_number}")
     for i in range(2, NUMBER_OF_PEOPLE+2):
         records = Sheets.weeklyChart.col_values(i)
-        print(records)
+        logging.info((records))
         Tally.update(Sheets.A1_notation(i, week_number + 1), sum([1 for record in records if record == IDENTIFYING_CHARACTER]))
 
     # clearing the sheet for the next week
