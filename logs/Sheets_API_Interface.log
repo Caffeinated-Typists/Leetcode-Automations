@@ -1878,3 +1878,11 @@ INFO:__main__:
 Last Run at Wed Nov 09 00:34:27 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Contains Duplicate III', 'Dungeon Game']
+INFO:root:Index of new row in questionsTracking: 107
+INFO:root:Index of new row in weeklyChart: 21
+INFO:__main__:
+Last Run at Wed Nov 09 01:18:48 2022 
+ --------------------------------------- 
+
