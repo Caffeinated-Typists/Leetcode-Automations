@@ -1648,3 +1648,11 @@ INFO:__main__:
 Last Run at Tue Nov 08 10:44:12 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for Sahilence
+INFO:root:['Minimum Path Sum']
+INFO:root:Index of new row in questionsTracking: 101
+INFO:root:Index of new row in weeklyChart: 13
+INFO:__main__:
+Last Run at Tue Nov 08 11:20:50 2022 
+ --------------------------------------- 
+
