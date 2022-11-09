@@ -1938,3 +1938,19 @@ INFO:__main__:
 Last Run at Wed Nov 09 15:19:35 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['The K Weakest Rows in a Matrix']
+INFO:root:Index of new row in questionsTracking: 108
+INFO:root:Index of new row in weeklyChart: 22
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Mirror Reflection', 'Online Stock Span']
+INFO:root:Index of new row in questionsTracking: 109
+INFO:root:Index of new row in weeklyChart: 23
+INFO:root:Index of new row in questionsTracking: 110
+INFO:root:Index of new row in weeklyChart: 24
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Online Stock Span']
+INFO:__main__:
+Last Run at Wed Nov 09 16:21:13 2022 
+ --------------------------------------- 
+
