@@ -2008,3 +2008,13 @@ INFO:__main__:
 Last Run at Wed Nov 09 20:21:10 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for Sahilence
+INFO:root:['Partition Equal Subset Sum', 'Coin Change']
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Latest Time by Replacing Hidden Digits', 'Two Sum']
+INFO:root:Index of new row in questionsTracking: 113
+INFO:root:Index of new row in weeklyChart: 27
+INFO:__main__:
+Last Run at Wed Nov 09 21:22:48 2022 
+ --------------------------------------- 
+
