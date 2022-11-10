@@ -2130,3 +2130,11 @@ INFO:__main__:
 Last Run at Thu Nov 10 11:21:01 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Remove All Adjacent Duplicates In String']
+INFO:root:Index of new row in questionsTracking: 114
+INFO:root:Index of new row in weeklyChart: 28
+INFO:__main__:
+Last Run at Thu Nov 10 12:25:23 2022 
+ --------------------------------------- 
+
