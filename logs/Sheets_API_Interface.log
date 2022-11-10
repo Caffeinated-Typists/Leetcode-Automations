@@ -2152,3 +2152,13 @@ INFO:__main__:
 Last Run at Thu Nov 10 14:27:58 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Frog Jump', 'Remove All Adjacent Duplicates In String']
+INFO:root:Index of new row in questionsTracking: 115
+INFO:root:Index of new row in weeklyChart: 29
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Remove All Adjacent Duplicates In String']
+INFO:__main__:
+Last Run at Thu Nov 10 15:19:59 2022 
+ --------------------------------------- 
+
