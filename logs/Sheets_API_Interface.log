@@ -2292,3 +2292,11 @@ INFO:__main__:
 Last Run at Fri Nov 11 12:29:32 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Remove Duplicates from Sorted Array']
+INFO:root:Index of new row in questionsTracking: 116
+INFO:root:Index of new row in weeklyChart: 30
+INFO:__main__:
+Last Run at Fri Nov 11 13:18:02 2022 
+ --------------------------------------- 
+
