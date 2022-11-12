@@ -2516,3 +2516,19 @@ INFO:__main__:
 Last Run at Sat Nov 12 21:20:17 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['K-th Symbol in Grammar']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Split Message Based on Limit', 'Most Profitable Path in a Tree', 'Count Ways To Build Good Strings', 'Number of Distinct Averages']
+INFO:root:Index of new row in questionsTracking: 118
+INFO:root:Index of new row in weeklyChart: 32
+INFO:root:Index of new row in questionsTracking: 119
+INFO:root:Index of new row in weeklyChart: 33
+INFO:root:Index of new row in questionsTracking: 120
+INFO:root:Index of new row in weeklyChart: 34
+INFO:root:Index of new row in questionsTracking: 121
+INFO:root:Index of new row in weeklyChart: 35
+INFO:__main__:
+Last Run at Sat Nov 12 22:29:19 2022 
+ --------------------------------------- 
+
