@@ -2492,3 +2492,11 @@ INFO:__main__:
 Last Run at Sat Nov 12 17:17:45 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for devm4966
+INFO:root:['K-th Symbol in Grammar']
+INFO:root:Index of new row in questionsTracking: 117
+INFO:root:Index of new row in weeklyChart: 31
+INFO:__main__:
+Last Run at Sat Nov 12 18:40:37 2022 
+ --------------------------------------- 
+
