@@ -2659,3 +2659,15 @@ INFO:__main__:
 Last Run at Sun Nov 13 18:43:53 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Swap Nodes in Pairs', 'Reverse Words in a String']
+INFO:root:Index of new row in questionsTracking: 127
+INFO:root:Index of new row in weeklyChart: 42
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Reverse Words in a String']
+INFO:root:Got questions for Master1012
+INFO:root:['Jewels and Stones', 'Best Time to Buy and Sell Stock', 'Single Number', 'Maximum 69 Number']
+INFO:__main__:
+Last Run at Sun Nov 13 19:20:49 2022 
+ --------------------------------------- 
+
