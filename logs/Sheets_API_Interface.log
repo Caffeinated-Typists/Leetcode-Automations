@@ -2903,3 +2903,19 @@ INFO:__main__:
 Last Run at Mon Nov 14 21:21:41 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Defanging an IP Address', 'Swap Nodes in Pairs']
+INFO:root:Got questions for Zynade
+INFO:root:['Swap Nodes in Pairs', 'Defanging an IP Address', 'Concatenation of Array', 'Convert the Temperature']
+INFO:root:Got questions for richa21086
+INFO:root:['Valid Parentheses', 'Search Insert Position']
+INFO:root:Index of new row in questionsTracking: 142
+INFO:root:Index of new row in weeklyChart: 59
+INFO:root:Got questions for Sahilence
+INFO:root:['Longest Substring Without Repeating Characters', 'Longest Consecutive Sequence', 'Missing Number']
+INFO:root:Index of new row in questionsTracking: 143
+INFO:root:Index of new row in weeklyChart: 60
+INFO:__main__:
+Last Run at Mon Nov 14 22:37:18 2022 
+ --------------------------------------- 
+
