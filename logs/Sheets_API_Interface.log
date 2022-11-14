@@ -2947,3 +2947,14 @@ INFO:__main__:
 Last Run at Tue Nov 15 00:25:04 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Defanging an IP Address', 'Swap Nodes in Pairs']
+INFO:root:Index of new row in weeklyChart: 2
+INFO:root:Index of new row in weeklyChart: 3
+INFO:root:Got questions for richa21086
+INFO:root:['Valid Parentheses']
+INFO:root:Index of new row in weeklyChart: 4
+INFO:__main__:
+Last Run at Tue Nov 15 01:17:59 2022 
+ --------------------------------------- 
+
