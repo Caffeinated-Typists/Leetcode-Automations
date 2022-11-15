@@ -3104,3 +3104,14 @@ INFO:__main__:
 Last Run at Tue Nov 15 22:29:44 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for devm4966
+INFO:root:['Count Complete Tree Nodes']
+INFO:root:Got questions for upalsci
+INFO:root:['Find the Duplicate Number', 'Missing Number']
+INFO:root:Index of new row in questionsTracking: 145
+INFO:root:Index of new row in weeklyChart: 8
+INFO:root:Index of new row in weeklyChart: 9
+INFO:__main__:
+Last Run at Tue Nov 15 23:17:55 2022 
+ --------------------------------------- 
+
