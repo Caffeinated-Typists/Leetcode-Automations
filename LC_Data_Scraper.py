@@ -6,7 +6,7 @@ import time
 import parsedatetime as pdt
 from datetime import datetime, timedelta
 
-TIME_DELTA_HOUR:int = 2
+TIME_DELTA_HOUR:int = 1
 TIME_DELTA_DAY:int = 0
 
 cal = pdt.Calendar()
