@@ -3179,3 +3179,13 @@ INFO:__main__:
 Last Run at Wed Nov 16 15:17:57 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Guess Number Higher or Lower']
+INFO:root:Index of new row in questionsTracking: 146
+INFO:root:Index of new row in weeklyChart: 10
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Guess Number Higher or Lower']
+INFO:__main__:
+Last Run at Wed Nov 16 16:19:05 2022 
+ --------------------------------------- 
+
