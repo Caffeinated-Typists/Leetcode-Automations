@@ -3413,3 +3413,11 @@ INFO:__main__:
 Last Run at Thu Nov 17 10:05:03 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for upalsci
+INFO:root:['Find Pivot Index']
+INFO:root:Index of new row in questionsTracking: 147
+INFO:root:Index of new row in weeklyChart: 8
+INFO:__main__:
+Last Run at Thu Nov 17 10:22:41 2022 
+ --------------------------------------- 
+
