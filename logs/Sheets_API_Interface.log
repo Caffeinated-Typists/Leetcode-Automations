@@ -3541,3 +3541,11 @@ INFO:__main__:
 Last Run at Thu Nov 17 13:17:18 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Rectangle Area']
+INFO:root:Index of new row in questionsTracking: 148
+INFO:root:Index of new row in weeklyChart: 9
+INFO:__main__:
+Last Run at Thu Nov 17 13:39:25 2022 
+ --------------------------------------- 
+
