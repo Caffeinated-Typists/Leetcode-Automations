@@ -4029,3 +4029,11 @@ INFO:__main__:
 Last Run at Fri Nov 18 18:21:30 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Ugly Number']
+INFO:root:Index of new row in questionsTracking: 150
+INFO:root:Index of new row in weeklyChart: 11
+INFO:__main__:
+Last Run at Fri Nov 18 18:56:00 2022 
+ --------------------------------------- 
+
