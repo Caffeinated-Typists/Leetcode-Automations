@@ -4518,3 +4518,11 @@ INFO:__main__:
 Last Run at Sun Nov 20 04:07:43 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for devm4966
+INFO:root:['To Lower Case']
+INFO:root:Index of new row in questionsTracking: 152
+INFO:root:Index of new row in weeklyChart: 14
+INFO:__main__:
+Last Run at Sun Nov 20 04:16:58 2022 
+ --------------------------------------- 
+
