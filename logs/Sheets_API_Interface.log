@@ -4820,3 +4820,17 @@ INFO:__main__:
 Last Run at Sun Nov 20 17:40:14 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Remove Element']
+INFO:root:Index of new row in questionsTracking: 153
+INFO:root:Index of new row in weeklyChart: 15
+INFO:root:Got questions for Sahilence
+INFO:root:['Ugly Number', 'Guess Number Higher or Lower']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Basic Calculator']
+INFO:root:Index of new row in questionsTracking: 154
+INFO:root:Index of new row in weeklyChart: 16
+INFO:__main__:
+Last Run at Sun Nov 20 18:18:55 2022 
+ --------------------------------------- 
+
