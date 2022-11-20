@@ -5029,3 +5029,13 @@ INFO:__main__:
 Last Run at Sun Nov 20 23:37:36 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for richa21086
+INFO:root:['Fizz Buzz', 'Keyboard Row']
+INFO:root:Index of new row in questionsTracking: 159
+INFO:root:Index of new row in weeklyChart: 24
+INFO:root:Index of new row in questionsTracking: 160
+INFO:root:Index of new row in weeklyChart: 25
+INFO:__main__:
+Last Run at Mon Nov 21 00:02:24 2022 
+ --------------------------------------- 
+
