@@ -4927,3 +4927,18 @@ INFO:__main__:
 Last Run at Sun Nov 20 20:03:05 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Ugly Number', 'Length of Last Word']
+INFO:root:Got questions for zubaida
+INFO:root:['Guess Number Higher or Lower']
+INFO:root:Got questions for Zynade
+INFO:root:['Goal Parser Interpretation', 'Plus One']
+INFO:root:Index of new row in questionsTracking: 156
+INFO:root:Index of new row in weeklyChart: 19
+INFO:root:Index of new row in weeklyChart: 20
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Length of Last Word']
+INFO:__main__:
+Last Run at Sun Nov 20 20:17:19 2022 
+ --------------------------------------- 
+
