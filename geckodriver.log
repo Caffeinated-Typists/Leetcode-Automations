@@ -14180,3 +14180,17 @@ DevTools listening on ws://127.0.0.1:55301/devtools/browser/f495e2aa-effe-465f-a
 1669149316875	Marionette	INFO	Stopped listening on port 34801
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1669149948651	geckodriver	INFO	Listening on 127.0.0.1:58691
+1669149949154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "47543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepDcg3z"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1669149959439	Marionette	INFO	Marionette enabled
+1669149959484	Marionette	INFO	Listening on port 44313
+Read port: 44313
+Read port: 44313
+WebDriver BiDi listening on ws://127.0.0.1:47543
+1669149961461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepDcg3z/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47543/devtools/browser/15bde11b-1f9a-477d-ac3c-41da9bbcdfb7
+1669150024142	Marionette	INFO	Stopped listening on port 44313
