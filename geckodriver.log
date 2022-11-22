@@ -14262,3 +14262,20 @@ WebDriver BiDi listening on ws://127.0.0.1:54397
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiler6k4EA/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:54397/devtools/browser/46e7532d-8e53-4f27-bf90-e7aed8771473
 1669153639565	Marionette	INFO	Stopped listening on port 44757
+1669154561124	geckodriver	INFO	Listening on 127.0.0.1:38019
+1669154561347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "54677" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFyv5rl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1669154566995	Marionette	INFO	Marionette enabled
+1669154567007	Marionette	INFO	Listening on port 36355
+Read port: 36355
+WebDriver BiDi listening on ws://127.0.0.1:54677
+1669154567964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFyv5rl/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:54677/devtools/browser/568e63a1-fd05-442e-8d04-63d54649b32e
+1669154625510	Marionette	INFO	Stopped listening on port 36355
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
