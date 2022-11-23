@@ -15133,3 +15133,21 @@ DevTools listening on ws://127.0.0.1:59509/devtools/browser/5d92cae4-de99-4bf5-9
 1669215830968	Marionette	INFO	Stopped listening on port 43697
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1669217257670	geckodriver	INFO	Listening on 127.0.0.1:33669
+1669217258044	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "36951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQZ2a5Q"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1669217266239	Marionette	INFO	Marionette enabled
+1669217266254	Marionette	INFO	Listening on port 43247
+Read port: 43247
+Read port: 43247
+WebDriver BiDi listening on ws://127.0.0.1:36951
+1669217267532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQZ2a5Q/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:36951/devtools/browser/5a03b76e-28c1-4845-8e17-262971511028
+1669217325725	Marionette	INFO	Stopped listening on port 43247
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
