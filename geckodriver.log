@@ -16223,3 +16223,16 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "res
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilen8IZgV/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:43557/devtools/browser/f9133873-95ec-49c9-a3da-eddb13025144
 1669289582354	Marionette	INFO	Stopped listening on port 34549
+1669290363903	geckodriver	INFO	Listening on 127.0.0.1:43945
+1669290364352	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "49331" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZLkgxG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1669290372640	Marionette	INFO	Marionette enabled
+1669290372655	Marionette	INFO	Listening on port 37469
+Read port: 37469
+WebDriver BiDi listening on ws://127.0.0.1:49331
+1669290373685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZLkgxG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49331/devtools/browser/9c9f126d-37c4-46c2-8a0c-c3ee1feaef27
+1669290436768	Marionette	INFO	Stopped listening on port 37469
