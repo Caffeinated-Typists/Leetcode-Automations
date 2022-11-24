@@ -15693,3 +15693,21 @@ WebDriver BiDi listening on ws://127.0.0.1:55323
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAlKdFH/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:55323/devtools/browser/6e338e40-0cf7-4da9-8da0-b2d9d9d4b79b
 1669250108234	Marionette	INFO	Stopped listening on port 45641
+1669256205640	geckodriver	INFO	Listening on 127.0.0.1:41921
+1669256205998	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "55781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileB7yN9B"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1669256214170	Marionette	INFO	Marionette enabled
+1669256214217	Marionette	INFO	Listening on port 45141
+Read port: 45141
+Read port: 45141
+WebDriver BiDi listening on ws://127.0.0.1:55781
+1669256215845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileB7yN9B/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:55781/devtools/browser/33a7d472-7a2f-4260-9bdf-6ae3decf8537
+1669256276320	Marionette	INFO	Stopped listening on port 45141
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
