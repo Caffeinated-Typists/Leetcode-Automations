@@ -6257,3 +6257,11 @@ INFO:__main__:
 Last Run at Thu Nov 24 16:53:13 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Word Search']
+INFO:root:Index of new row in questionsTracking: 164
+INFO:root:Index of new row in weeklyChart: 8
+INFO:__main__:
+Last Run at Thu Nov 24 17:03:03 2022 
+ --------------------------------------- 
+

@@ -16203,3 +16203,23 @@ WebDriver BiDi listening on ws://127.0.0.1:40357
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemM8pqo/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:40357/devtools/browser/b2aa6d6a-60d6-4ae5-9b00-9a10486e1249
 1669288993114	Marionette	INFO	Stopped listening on port 41907
+1669289460881	geckodriver	INFO	Listening on 127.0.0.1:35779
+1669289461830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "43557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilen8IZgV"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1669289504145	Marionette	INFO	Marionette enabled
+1669289504189	Marionette	INFO	Listening on port 34549
+Read port: 34549
+Read port: 34549
+Read port: 34549
+Read port: 34549
+Read port: 34549
+Read port: 34549
+WebDriver BiDi listening on ws://127.0.0.1:43557
+1669289510382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 761))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 415))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilen8IZgV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43557/devtools/browser/f9133873-95ec-49c9-a3da-eddb13025144
+1669289582354	Marionette	INFO	Stopped listening on port 34549
