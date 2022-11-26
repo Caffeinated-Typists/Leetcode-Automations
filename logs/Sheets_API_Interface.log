@@ -6804,3 +6804,13 @@ INFO:__main__:
 Last Run at Sat Nov 26 05:16:56 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Maximum Profit in Job Scheduling', 'Sum of Subarray Minimums']
+INFO:root:Index of new row in questionsTracking: 165
+INFO:root:Index of new row in weeklyChart: 10
+INFO:root:Index of new row in questionsTracking: 166
+INFO:root:Index of new row in weeklyChart: 11
+INFO:__main__:
+Last Run at Sat Nov 26 05:58:14 2022 
+ --------------------------------------- 
+
