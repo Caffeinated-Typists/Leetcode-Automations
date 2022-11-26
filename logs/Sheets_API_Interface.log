@@ -7138,3 +7138,15 @@ INFO:__main__:
 Last Run at Sun Nov 27 02:02:56 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Perfect Squares', 'Rectangle Area']
+INFO:root:Got questions for Sahilence
+INFO:root:['Perfect Squares']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Distinct Subsequences']
+INFO:root:Index of new row in questionsTracking: 169
+INFO:root:Index of new row in weeklyChart: 16
+INFO:__main__:
+Last Run at Sun Nov 27 02:16:56 2022 
+ --------------------------------------- 
+
