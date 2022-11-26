@@ -7054,3 +7054,12 @@ INFO:__main__:
 Last Run at Sun Nov 27 00:33:05 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Fizz Buzz']
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Ugly Number']
+INFO:root:Index of new row in weeklyChart: 12
+INFO:__main__:
+Last Run at Sun Nov 27 00:50:26 2022 
+ --------------------------------------- 
+
