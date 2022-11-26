@@ -7063,3 +7063,20 @@ INFO:__main__:
 Last Run at Sun Nov 27 00:50:26 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Fizz Buzz']
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Bulls and Cows']
+INFO:root:Index of new row in questionsTracking: 167
+INFO:root:Index of new row in weeklyChart: 13
+INFO:root:Got questions for devm4966
+INFO:root:['Rectangle Area']
+INFO:root:Index of new row in weeklyChart: 14
+INFO:root:Got questions for Sahilence
+INFO:root:['Reverse Vowels of a String']
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Ugly Number']
+INFO:__main__:
+Last Run at Sun Nov 27 01:01:46 2022 
+ --------------------------------------- 
+
