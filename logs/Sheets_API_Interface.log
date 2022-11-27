@@ -7392,3 +7392,11 @@ INFO:__main__:
 Last Run at Sun Nov 27 15:17:05 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Sum of Two Integers', 'Reverse Vowels of a String']
+INFO:root:Index of new row in questionsTracking: 172
+INFO:root:Index of new row in weeklyChart: 20
+INFO:__main__:
+Last Run at Sun Nov 27 15:33:29 2022 
+ --------------------------------------- 
+
