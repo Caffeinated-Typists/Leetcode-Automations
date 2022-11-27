@@ -7580,3 +7580,11 @@ INFO:__main__:
 Last Run at Sun Nov 27 23:16:42 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Remove Duplicates from Sorted List']
+INFO:root:Index of new row in questionsTracking: 175
+INFO:root:Index of new row in weeklyChart: 25
+INFO:__main__:
+Last Run at Sun Nov 27 23:37:23 2022 
+ --------------------------------------- 
+
