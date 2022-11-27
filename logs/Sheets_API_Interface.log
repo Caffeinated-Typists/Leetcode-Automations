@@ -7520,3 +7520,13 @@ INFO:__main__:
 Last Run at Sun Nov 27 20:33:37 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Rotate List']
+INFO:root:Index of new row in questionsTracking: 174
+INFO:root:Index of new row in weeklyChart: 24
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Rectangle Overlap']
+INFO:__main__:
+Last Run at Sun Nov 27 20:56:43 2022 
+ --------------------------------------- 
+
