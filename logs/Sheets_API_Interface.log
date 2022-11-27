@@ -7478,3 +7478,13 @@ INFO:__main__:
 Last Run at Sun Nov 27 19:16:48 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Rectangle Overlap', 'Rectangle Area']
+INFO:root:Index of new row in questionsTracking: 173
+INFO:root:Index of new row in weeklyChart: 23
+INFO:root:Got questions for Zynade
+INFO:root:['Ugly Number', 'Count Primes']
+INFO:__main__:
+Last Run at Sun Nov 27 19:32:47 2022 
+ --------------------------------------- 
+
