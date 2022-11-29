@@ -8162,3 +8162,11 @@ INFO:__main__:
 Last Run at Tue Nov 29 15:35:03 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for devm4966
+INFO:root:['Insert Delete GetRandom O(1)']
+INFO:root:Index of new row in questionsTracking: 178
+INFO:root:Index of new row in weeklyChart: 6
+INFO:__main__:
+Last Run at Tue Nov 29 16:00:16 2022 
+ --------------------------------------- 
+
