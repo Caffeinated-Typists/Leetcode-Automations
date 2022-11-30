@@ -8540,3 +8540,11 @@ INFO:__main__:
 Last Run at Wed Nov 30 16:33:21 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Unique Number of Occurrences']
+INFO:root:Index of new row in questionsTracking: 179
+INFO:root:Index of new row in weeklyChart: 7
+INFO:__main__:
+Last Run at Wed Nov 30 16:55:13 2022 
+ --------------------------------------- 
+
