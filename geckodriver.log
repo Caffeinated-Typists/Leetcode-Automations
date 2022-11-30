@@ -22937,3 +22937,16 @@ WebDriver BiDi listening on ws://127.0.0.1:52457
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebYNo69/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:52457/devtools/browser/f8cfe811-cdaf-472f-81fb-3290ddce4beb
 1669845838295	Marionette	INFO	Stopped listening on port 38711
+1669847212264	geckodriver	INFO	Listening on 127.0.0.1:53949
+1669847212582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "48265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoyvkfy"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1669847217788	Marionette	INFO	Marionette enabled
+1669847217827	Marionette	INFO	Listening on port 34515
+Read port: 34515
+WebDriver BiDi listening on ws://127.0.0.1:48265
+1669847218779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoyvkfy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48265/devtools/browser/d7982f6c-eab2-4561-be37-5a5e0236c8c8
+1669847276755	Marionette	INFO	Stopped listening on port 34515
