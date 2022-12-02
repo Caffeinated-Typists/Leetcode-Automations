@@ -9475,3 +9475,11 @@ INFO:__main__:
 Last Run at Fri Dec 02 23:17:14 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Determine if Two Strings Are Close']
+INFO:root:Index of new row in questionsTracking: 182
+INFO:root:Index of new row in weeklyChart: 10
+INFO:__main__:
+Last Run at Fri Dec 02 23:38:00 2022 
+ --------------------------------------- 
+
