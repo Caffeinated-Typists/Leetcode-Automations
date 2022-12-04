@@ -10204,3 +10204,17 @@ INFO:__main__:
 Last Run at Sun Dec 04 17:39:18 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Minimum Average Difference']
+INFO:root:Got questions for zubaida
+INFO:root:['Determine if String Halves Are Alike']
+INFO:root:Got questions for Zynade
+INFO:root:['Sort Colors', 'Valid Palindrome']
+INFO:root:Index of new row in questionsTracking: 186
+INFO:root:Index of new row in weeklyChart: 15
+INFO:root:Index of new row in questionsTracking: 187
+INFO:root:Index of new row in weeklyChart: 16
+INFO:__main__:
+Last Run at Sun Dec 04 18:14:28 2022 
+ --------------------------------------- 
+
