@@ -10251,3 +10251,16 @@ INFO:__main__:
 Last Run at Sun Dec 04 19:17:18 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Reverse Linked List II']
+INFO:root:Index of new row in questionsTracking: 188
+INFO:root:Index of new row in weeklyChart: 18
+INFO:root:Got questions for Zynade
+INFO:root:['Valid Parentheses']
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Longest Common Prefix']
+INFO:root:Index of new row in weeklyChart: 19
+INFO:__main__:
+Last Run at Sun Dec 04 19:33:29 2022 
+ --------------------------------------- 
+
