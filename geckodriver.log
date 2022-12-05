@@ -27704,3 +27704,24 @@ WebDriver BiDi listening on ws://127.0.0.1:39287
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemkpuEC/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:39287/devtools/browser/03db2b91-f744-4f74-bef2-68c2d49da6b4
 1670221877650	Marionette	INFO	Stopped listening on port 34143
+1670222477195	geckodriver	INFO	Listening on 127.0.0.1:41435
+1670222477378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "41435" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile496s6x"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670222489350	Marionette	INFO	Marionette enabled
+1670222489366	Marionette	INFO	Listening on port 35659
+Read port: 35659
+Read port: 35659
+
+!!! could not start server on port 41435: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/HTTPD.jsm :: _start :: line 593"  data: no]
+
+1670222490815	RemoteAgent	ERROR	unable to stop listener: [Exception... "Unexpected error"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/server/HTTPD.jsm :: stop :: line 647"  data: no] Stack trace: stop()@HTTPD.jsm:647
+#stop()@sys.mjs:323
+1670222490815	RemoteAgent	ERROR	Unable to start remote agent: : [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/server/HTTPD.jsm :: _start :: line 638"  data: no] Stack trace: _start()@HTTPD.jsm:638
+#listen()@sys.mjs:241
+1670222490882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile496s6x/search.json.mozlz4", (void 0)))
+1670222555022	Marionette	INFO	Stopped listening on port 35659
+1670222555160	RemoteAgent	ERROR	unable to stop listener: [Exception... "Unexpected error"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/server/HTTPD.jsm :: stop :: line 647"  data: no] Stack trace: stop()@HTTPD.jsm:647
+#stop()@sys.mjs:323
