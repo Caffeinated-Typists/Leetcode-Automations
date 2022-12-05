@@ -10512,3 +10512,11 @@ INFO:__main__:
 Last Run at Mon Dec 05 11:38:21 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Middle of the Linked List']
+INFO:root:Index of new row in questionsTracking: 189
+INFO:root:Index of new row in weeklyChart: 2
+INFO:__main__:
+Last Run at Mon Dec 05 12:01:18 2022 
+ --------------------------------------- 
+
