@@ -11613,3 +11613,11 @@ INFO:__main__:
 Last Run at Wed Dec 07 20:02:34 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for Sahilence
+INFO:root:['Two Sum II - Input Array Is Sorted', 'Move Zeroes']
+INFO:root:Index of new row in questionsTracking: 196
+INFO:root:Index of new row in weeklyChart: 12
+INFO:__main__:
+Last Run at Wed Dec 07 20:17:05 2022 
+ --------------------------------------- 
+
