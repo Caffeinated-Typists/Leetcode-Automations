@@ -33730,3 +33730,16 @@ JavaScript error: https://leetcode.cn/api/is_china_ip/?callback=afterCheckCnIp, 
 JavaScript error: https://leetcode.cn/api/is_china_ip/?callback=afterCheckCnIp, line 1: SyntaxError: expected expression, got '<'
 JavaScript error: https://leetcode.cn/api/is_china_ip/?callback=afterCheckCnIp, line 1: SyntaxError: expected expression, got '<'
 1670682724507	Marionette	INFO	Stopped listening on port 36951
+1670683552465	geckodriver	INFO	Listening on 127.0.0.1:34545
+1670683552837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "36605" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePikblw"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670683560414	Marionette	INFO	Marionette enabled
+1670683560429	Marionette	INFO	Listening on port 41105
+Read port: 41105
+Read port: 41105
+WebDriver BiDi listening on ws://127.0.0.1:36605
+1670683561742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePikblw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36605/devtools/browser/cf44f94a-2a49-4ea1-b12f-abe9cac3eb31
