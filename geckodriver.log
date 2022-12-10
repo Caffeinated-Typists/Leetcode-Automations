@@ -33712,3 +33712,21 @@ WebDriver BiDi listening on ws://127.0.0.1:45795
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaHKHc7/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:45795/devtools/browser/d6950582-f9fb-4e39-bdef-c5107b4bd26a
 1670682193348	Marionette	INFO	Stopped listening on port 38635
+1670682657751	geckodriver	INFO	Listening on 127.0.0.1:46303
+1670682657945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "59613" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRdrPxE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670682666848	Marionette	INFO	Marionette enabled
+1670682666862	Marionette	INFO	Listening on port 36951
+Read port: 36951
+Read port: 36951
+WebDriver BiDi listening on ws://127.0.0.1:59613
+1670682668570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRdrPxE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59613/devtools/browser/325c916c-47d4-48e8-8db5-ad81e539dd76
+JavaScript error: https://leetcode.cn/api/is_china_ip/?callback=afterCheckCnIp, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://leetcode.cn/api/is_china_ip/?callback=afterCheckCnIp, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://leetcode.cn/api/is_china_ip/?callback=afterCheckCnIp, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://leetcode.cn/api/is_china_ip/?callback=afterCheckCnIp, line 1: SyntaxError: expected expression, got '<'
+1670682724507	Marionette	INFO	Stopped listening on port 36951
