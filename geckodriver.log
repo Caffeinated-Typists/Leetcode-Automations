@@ -39169,3 +39169,17 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671027823206	geckodriver	INFO	Listening on 127.0.0.1:48627
+1671027823552	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "57963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAhAeQc"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027828013	Marionette	INFO	Marionette enabled
+1671027828026	Marionette	INFO	Listening on port 40557
+Read port: 40557
+WebDriver BiDi listening on ws://127.0.0.1:57963
+1671027828989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAhAeQc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57963/devtools/browser/b69052d1-42d8-43cf-87ec-83dfa60b536e
+1671027884135	Marionette	INFO	Stopped listening on port 40557
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 908: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
