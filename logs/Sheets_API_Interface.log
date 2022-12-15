@@ -14932,3 +14932,11 @@ INFO:__main__:
 Last Run at Thu Dec 15 19:34:09 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Longest Common Subsequence']
+INFO:root:Index of new row in questionsTracking: 206
+INFO:root:Index of new row in weeklyChart: 29
+INFO:__main__:
+Last Run at Thu Dec 15 19:56:44 2022 
+ --------------------------------------- 
+
