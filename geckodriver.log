@@ -40700,3 +40700,17 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:32947/devtools/browser/0df62d71-1a57-4715-9858-437ec7308bf4
 ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
 1671100172640	Marionette	INFO	Stopped listening on port 46847
+1671100659508	geckodriver	INFO	Listening on 127.0.0.1:56229
+1671100659777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "48095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePeey2X"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671100666953	Marionette	INFO	Marionette enabled
+1671100666965	Marionette	INFO	Listening on port 36657
+Read port: 36657
+WebDriver BiDi listening on ws://127.0.0.1:48095
+1671100668073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePeey2X/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48095/devtools/browser/0c376822-22d6-4936-a058-2a3e8b287ef1
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+1671100726298	Marionette	INFO	Stopped listening on port 36657
