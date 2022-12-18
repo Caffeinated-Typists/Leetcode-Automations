@@ -15948,3 +15948,11 @@ INFO:__main__:
 Last Run at Sun Dec 18 08:00:14 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Daily Temperatures']
+INFO:root:Index of new row in questionsTracking: 212
+INFO:root:Index of new row in weeklyChart: 35
+INFO:__main__:
+Last Run at Sun Dec 18 08:17:44 2022 
+ --------------------------------------- 
+
