@@ -17430,3 +17430,11 @@ INFO:__main__:
 Last Run at Thu Dec 22 02:16:54 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Possible Bipartition']
+INFO:root:Index of new row in questionsTracking: 215
+INFO:root:Index of new row in weeklyChart: 38
+INFO:__main__:
+Last Run at Thu Dec 22 02:32:44 2022 
+ --------------------------------------- 
+
