@@ -18766,3 +18766,11 @@ INFO:__main__:
 Last Run at Sun Dec 25 11:01:47 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Longest Subsequence With Limited Sum']
+INFO:root:Index of new row in questionsTracking: 219
+INFO:root:Index of new row in weeklyChart: 42
+INFO:__main__:
+Last Run at Sun Dec 25 11:16:55 2022 
+ --------------------------------------- 
+
