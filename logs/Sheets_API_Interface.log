@@ -19515,3 +19515,11 @@ INFO:__main__:
 Last Run at Tue Dec 27 04:01:58 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for prakhar432
+INFO:root:['Power of Two']
+INFO:root:Index of new row in questionsTracking: 222
+INFO:root:Index of new row in weeklyChart: 50
+INFO:__main__:
+Last Run at Tue Dec 27 04:17:06 2022 
+ --------------------------------------- 
+
