@@ -19285,3 +19285,12 @@ INFO:__main__:
 Last Run at Mon Dec 26 17:39:57 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Best Time to Buy and Sell Stock II', 'Best Time to Buy and Sell Stock']
+INFO:root:Index of new row in questionsTracking: 220
+INFO:root:Index of new row in weeklyChart: 44
+INFO:root:Index of new row in weeklyChart: 45
+INFO:__main__:
+Last Run at Mon Dec 26 18:12:03 2022 
+ --------------------------------------- 
+
