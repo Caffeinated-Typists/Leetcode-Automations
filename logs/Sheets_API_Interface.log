@@ -19358,3 +19358,11 @@ INFO:__main__:
 Last Run at Mon Dec 26 22:19:13 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Jump Game']
+INFO:root:Index of new row in questionsTracking: 221
+INFO:root:Index of new row in weeklyChart: 46
+INFO:__main__:
+Last Run at Mon Dec 26 22:33:00 2022 
+ --------------------------------------- 
+
