@@ -19543,3 +19543,11 @@ INFO:__main__:
 Last Run at Tue Dec 27 05:17:03 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Reverse String', 'Maximum Bags With Full Capacity of Rocks']
+INFO:root:Index of new row in questionsTracking: 223
+INFO:root:Index of new row in weeklyChart: 51
+INFO:__main__:
+Last Run at Tue Dec 27 05:59:33 2022 
+ --------------------------------------- 
+
