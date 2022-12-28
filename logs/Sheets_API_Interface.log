@@ -20513,3 +20513,13 @@ INFO:__main__:
 Last Run at Wed Dec 28 21:16:48 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for prakhar432
+INFO:root:['Number of 1 Bits', 'Subtract the Product and Sum of Digits of an Integer']
+INFO:root:Index of new row in questionsTracking: 225
+INFO:root:Index of new row in weeklyChart: 57
+INFO:root:Index of new row in questionsTracking: 226
+INFO:root:Index of new row in weeklyChart: 58
+INFO:__main__:
+Last Run at Wed Dec 28 21:35:47 2022 
+ --------------------------------------- 
+
