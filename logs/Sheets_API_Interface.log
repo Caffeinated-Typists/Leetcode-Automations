@@ -20531,3 +20531,11 @@ INFO:__main__:
 Last Run at Wed Dec 28 22:03:21 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for prakhar432
+INFO:root:['A Number After a Double Reversal', 'Reverse Bits']
+INFO:root:Index of new row in questionsTracking: 228
+INFO:root:Index of new row in weeklyChart: 60
+INFO:__main__:
+Last Run at Wed Dec 28 22:19:57 2022 
+ --------------------------------------- 
+
