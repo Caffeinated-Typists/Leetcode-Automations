@@ -20807,3 +20807,11 @@ INFO:__main__:
 Last Run at Thu Dec 29 04:16:46 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Construct Binary Tree from Preorder and Inorder Traversal']
+INFO:root:Index of new row in questionsTracking: 233
+INFO:root:Index of new row in weeklyChart: 65
+INFO:__main__:
+Last Run at Thu Dec 29 04:33:33 2022 
+ --------------------------------------- 
+
