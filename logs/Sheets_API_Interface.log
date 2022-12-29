@@ -20905,3 +20905,11 @@ INFO:__main__:
 Last Run at Thu Dec 29 09:16:53 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Single-Threaded CPU']
+INFO:root:Index of new row in questionsTracking: 235
+INFO:root:Index of new row in weeklyChart: 67
+INFO:__main__:
+Last Run at Thu Dec 29 09:37:36 2022 
+ --------------------------------------- 
+
