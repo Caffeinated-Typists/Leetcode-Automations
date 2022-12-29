@@ -20913,3 +20913,11 @@ INFO:__main__:
 Last Run at Thu Dec 29 09:37:36 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Coin Change II', 'Single-Threaded CPU']
+INFO:root:Index of new row in questionsTracking: 236
+INFO:root:Index of new row in weeklyChart: 68
+INFO:__main__:
+Last Run at Thu Dec 29 09:59:51 2022 
+ --------------------------------------- 
+
