@@ -21915,3 +21915,11 @@ INFO:__main__:
 Last Run at Sat Dec 31 03:17:02 2022 
  --------------------------------------- 
 
+INFO:root:Got questions for prakhar432
+INFO:root:['Set Mismatch']
+INFO:root:Index of new row in questionsTracking: 241
+INFO:root:Index of new row in weeklyChart: 77
+INFO:__main__:
+Last Run at Sat Dec 31 03:33:00 2022 
+ --------------------------------------- 
+
