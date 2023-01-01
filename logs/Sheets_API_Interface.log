@@ -10162,3 +10162,11 @@ INFO:__main__:
 Last Run at Sun Jan 01 23:02:03 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for prakhar432
+INFO:root:['Find Triangular Sum of an Array', 'Design Parking System', 'Smallest Even Multiple', 'Convert the Temperature']
+INFO:root:Index of new row in questionsTracking: 250
+INFO:root:Index of new row in weeklyChart: 91
+INFO:__main__:
+Last Run at Sun Jan 01 23:16:55 2023 
+ --------------------------------------- 
+
