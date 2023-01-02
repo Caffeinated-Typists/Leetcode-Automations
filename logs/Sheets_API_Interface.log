@@ -10336,3 +10336,11 @@ INFO:__main__:
 Last Run at Mon Jan 02 05:16:52 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Detect Capital']
+INFO:root:Index of new row in questionsTracking: 251
+INFO:root:Index of new row in weeklyChart: 4
+INFO:__main__:
+Last Run at Mon Jan 02 06:00:01 2023 
+ --------------------------------------- 
+
