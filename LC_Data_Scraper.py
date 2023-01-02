@@ -6,8 +6,8 @@ import time
 import parsedatetime as pdt
 from datetime import datetime, timedelta
 
-TIME_DELTA_HOUR:int = 1
-TIME_DELTA_DAY:int = 0
+TIME_DELTA_HOUR:int = 0
+TIME_DELTA_DAY:int = 1
 
 cal = pdt.Calendar()
 options = Options()
@@ -38,10 +38,10 @@ def get_questions(username: str) -> list[str]:
 
     try:
         Table = browser.find_element("xpath",
-                                r'/html/body/div[1]/div/div/div/div[2]/div[5]/div/div/div[2]')
+                                r'/html/body/div[1]/div/div[2]/div/div[2]/div[5]/div/div/div[2]')
     except selenium.common.exceptions.NoSuchElementException:
         Table = browser.find_element("xpath",
-                                r'/html/body/div[1]/div/div/div/div[2]/div[3]/div/div/div[2]')
+                                r'//*[@id="__next"]/div/div[2]/div/div[2]/div[3]/div/div/div[2]')
     
     Containers = Table.find_elements("xpath", "*")
 
@@ -64,3 +64,5 @@ if __name__ == "__main__":
     print(get_questions("aakarsh_11235"))
     print(get_questions("vartika_7"))
     browser.quit()
+
+# /html/body/div[1]/div/div[2]/div/div[2]/div[3]/div/div/div[2]
