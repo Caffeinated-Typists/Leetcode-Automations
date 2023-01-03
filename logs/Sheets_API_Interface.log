@@ -12057,3 +12057,13 @@ INFO:__main__:
 Last Run at Tue Jan 03 15:57:33 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Delete Columns to Make Sorted']
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Detect Capital']
+INFO:root:Got questions for Sahilence
+INFO:root:['Delete Columns to Make Sorted', 'Detect Capital']
+INFO:__main__:
+Last Run at Tue Jan 03 16:05:12 2023 
+ --------------------------------------- 
+
