@@ -12350,3 +12350,15 @@ INFO:__main__:
 Last Run at Tue Jan 03 19:33:39 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Detect Capital']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Delete Columns to Make Sorted']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Delete Columns to Make Sorted', 'House Robber II']
+INFO:root:Got questions for prakhar432
+INFO:root:['Search Insert Position', 'Reverse String', 'Detect Capital', 'To Lower Case']
+INFO:__main__:
+Last Run at Tue Jan 03 19:54:39 2023 
+ --------------------------------------- 
+
