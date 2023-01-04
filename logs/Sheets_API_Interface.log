@@ -13264,3 +13264,11 @@ INFO:__main__:
 Last Run at Wed Jan 04 13:01:38 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Delete Columns to Make Sorted', 'Detect Capital']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Delete Columns to Make Sorted', 'House Robber II']
+INFO:__main__:
+Last Run at Wed Jan 04 13:17:14 2023 
+ --------------------------------------- 
+
