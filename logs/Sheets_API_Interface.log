@@ -13020,3 +13020,15 @@ INFO:__main__:
 Last Run at Wed Jan 04 08:56:28 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Delete Columns to Make Sorted', 'Detect Capital']
+INFO:root:Got questions for Sahilence
+INFO:root:['House Robber', 'Merge Intervals', '4Sum', 'Rearrange Array Elements by Sign', 'Single Number', 'Subarray Sum Equals K', 'Delete Columns to Make Sorted']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Minimum Rounds to Complete All Tasks']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Delete Columns to Make Sorted', 'House Robber II']
+INFO:__main__:
+Last Run at Wed Jan 04 09:02:46 2023 
+ --------------------------------------- 
+
