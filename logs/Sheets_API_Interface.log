@@ -14607,3 +14607,43 @@ INFO:__main__:
 Last Run at Thu Jan 05 08:27:27 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Odd Even Linked List', 'Minimum Rounds to Complete All Tasks']
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Minimum Rounds to Complete All Tasks']
+INFO:root:Got questions for richa21086
+INFO:root:['Detect Capital']
+INFO:root:Got questions for Sahilence
+INFO:root:['Minimum Rounds to Complete All Tasks']
+ERROR:__main__:Message: TimedPromise timed out after 300000 ms
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+TimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:471:5
+bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
+Traceback (most recent call last):
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/Sheets_API_Interface.py", line 105, in <module>
+    add_weekly_questions()
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/Sheets_API_Interface.py", line 97, in add_weekly_questions
+    add_to_sheet(i)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/Sheets_API_Interface.py", line 65, in add_to_sheet
+    questions:list[str] = LC_Data_Scraper.get_questions(username)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/LC_Data_Scraper.py", line 35, in get_questions
+    browser.get(url)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 441, in get
+    self.execute(Command.GET, {'url': url})
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: TimedPromise timed out after 300000 ms
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+TimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:471:5
+bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
+
+INFO:__main__:
+Last Run at Thu Jan 05 08:43:05 2023 
+ --------------------------------------- 
+
