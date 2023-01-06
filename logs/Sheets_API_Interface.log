@@ -16284,3 +16284,13 @@ INFO:__main__:
 Last Run at Fri Jan 06 14:00:06 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Minimum Number of Arrows to Burst Balloons']
+INFO:root:Got questions for prakhar432
+INFO:root:['Search a 2D Matrix', 'Move Zeroes']
+INFO:root:Index of new row in questionsTracking: 260
+INFO:root:Index of new row in weeklyChart: 21
+INFO:__main__:
+Last Run at Fri Jan 06 14:09:02 2023 
+ --------------------------------------- 
+
