@@ -19474,3 +19474,19 @@ INFO:__main__:
 Last Run at Sun Jan 08 22:52:30 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Number of Good Pairs']
+INFO:root:Index of new row in questionsTracking: 267
+INFO:root:Index of new row in weeklyChart: 31
+INFO:root:Got questions for richa21086
+INFO:root:['Word Pattern', 'Minimum Rounds to Complete All Tasks']
+INFO:root:Got questions for Sahilence
+INFO:root:['Max Points on a Line']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Max Points on a Line']
+INFO:root:Got questions for prakhar432
+INFO:root:['Linked List Cycle II']
+INFO:__main__:
+Last Run at Sun Jan 08 23:02:07 2023 
+ --------------------------------------- 
+
