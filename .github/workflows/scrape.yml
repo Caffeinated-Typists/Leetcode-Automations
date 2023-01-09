@@ -27,11 +27,9 @@ jobs:
       - name: execute py script # run main.py
         env:  
           GOOGLE_API_CRED: ${{ secrets.GOOGLE_API_CRED }}
-        working-directory:
-          ./scripts
+
         run: |
           echo "$GITHUB_WORKSPACE" >> $GITHUB_PATH
-          chmod +x ./geckodriver.exe
           python Sheets_API_Interface.py
           
       - name: commit files
