@@ -1,13 +1,13 @@
-import os, sys
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 import selenium.common.exceptions
 import time
 import parsedatetime as pdt
 from datetime import datetime, timedelta
 
-TIME_DELTA_HOUR:int = 0
+TIME_DELTA_HOUR:int = 1
 TIME_DELTA_DAY:int = 1
 LOG_PATH:str = "../logs/geckodriver.log"
 EXE_PATH:str = "../misc/geckodriver.exe"
@@ -29,7 +29,9 @@ options = [
 for option in options:
     firefox_options.add_argument(option)
 
-browser = webdriver.Firefox(options=firefox_options, log_path=LOG_PATH)
+browser = webdriver.Firefox(options=firefox_options, 
+                            service=Service(executable_path=EXE_PATH, 
+                                            log_path=LOG_PATH))  
 
 # getting the questions done in the past 24 hours
 def get_questions(username: str) -> list[str]:
@@ -66,7 +68,7 @@ def get_questions(username: str) -> list[str]:
 
 if __name__ == "__main__":
     print(get_questions("aakarsh_11235"))
-    print(get_questions("vartika_7"))
+    # print(get_questions("vartika_7"))
     browser.quit()
 
 # /html/body/div[1]/div/div[2]/div/div[2]/div[3]/div/div/div[2]

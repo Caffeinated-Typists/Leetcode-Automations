@@ -14,7 +14,7 @@ WEEKLY_SHEET_ROW_OFFSET:int = 1
 ALL_SHEET_ROW_OFFSET:int = 1
 USERNAME_PATH:str = "../misc/usernames.json"
 
-logging.basicConfig(filename="logs/Sheets_API_Interface.log", level=logging.INFO)
+logging.basicConfig(filename="../logs/Sheets_API_Interface.log", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 GREEN_CELL:dict[str:dict[str:float]] = {"backgroundColor": 
@@ -24,8 +24,8 @@ GREEN_CELL:dict[str:dict[str:float]] = {"backgroundColor":
                                         "horizontalAlignment": "CENTER",
                                         }
                                         
-with json.load(open(USERNAME_PATH, "r")) as f:
-    USERNAME_TO_INDEX:dict[str:int] = f
+with open(USERNAME_PATH, "r") as f:
+    USERNAME_TO_INDEX:dict[str:int] = json.load(f)
 
 
 
