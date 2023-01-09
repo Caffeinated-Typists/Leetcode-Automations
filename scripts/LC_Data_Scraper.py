@@ -9,8 +9,8 @@ from datetime import datetime, timedelta
 
 TIME_DELTA_HOUR:int = 1
 TIME_DELTA_DAY:int = 1
-LOG_PATH:str = "../logs/geckodriver.log"
-EXE_PATH:str = "../misc/geckodriver.exe"
+LOG_PATH:str = "./geckodriver.log"
+EXE_PATH:str = "./geckodriver.exe"
 
 cal = pdt.Calendar()
 options = Options()
