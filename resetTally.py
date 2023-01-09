@@ -7,7 +7,7 @@ import Sheets_API_Interface as Sheets
 
 NUMBER_OF_PEOPLE:int = len(Sheets.USERNAME_TO_INDEX)
 
-logging.basicConfig(filename="../logs/resetTally.log", level=logging.INFO)
+logging.basicConfig(filename="logs/resetTally.log", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 IDENTIFYING_CHARACTER:str = "✔"
