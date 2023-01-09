@@ -1,6 +1,7 @@
 import os, sys
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 import selenium.common.exceptions
 import time
 import parsedatetime as pdt
@@ -8,10 +9,13 @@ from datetime import datetime, timedelta
 
 TIME_DELTA_HOUR:int = 0
 TIME_DELTA_DAY:int = 1
+LOG_PATH:str = "../logs/geckodriver.log"
+EXE_PATH:str = "../misc/geckodriver.exe"
 
 cal = pdt.Calendar()
 options = Options()
 firefox_options = Options()
+firefox_binary = FirefoxBinary()
 options = [
     "--headless",
     "--disable-gpu",
@@ -25,7 +29,7 @@ options = [
 for option in options:
     firefox_options.add_argument(option)
 
-browser = webdriver.Firefox(options=firefox_options)
+browser = webdriver.Firefox(options=firefox_options, log_path=LOG_PATH)
 
 # getting the questions done in the past 24 hours
 def get_questions(username: str) -> list[str]:
