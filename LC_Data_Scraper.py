@@ -29,9 +29,7 @@ options = [
 for option in options:
     firefox_options.add_argument(option)
 
-browser = webdriver.Firefox(options=firefox_options, 
-                            service=Service(executable_path=EXE_PATH, 
-                                            log_path=LOG_PATH))  
+browser = webdriver.Firefox(options=firefox_options)  
 
 # getting the questions done in the past 24 hours
 def get_questions(username: str) -> list[str]:
