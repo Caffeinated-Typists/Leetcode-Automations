@@ -1,9 +1,9 @@
 from pprint import pprint
 from datetime import datetime
-import Sheets_API_Interface as Sheets
 import time
 import pytz
 import logging
+import Sheets_API_Interface as Sheets
 
 NUMBER_OF_PEOPLE:int = len(Sheets.USERNAME_TO_INDEX)
 
