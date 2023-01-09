@@ -31,6 +31,8 @@ jobs:
           ./scripts
         run: |
           echo "$GITHUB_WORKSPACE" >> $GITHUB_PATH
+          chmod +x ../misc/geckodriver.exe
+          chmod +x Sheets_API_Interface.py
           python Sheets_API_Interface.py
           
       - name: commit files
