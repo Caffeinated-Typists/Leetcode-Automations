@@ -22208,3 +22208,11 @@ INFO:__main__:
 Last Run at Wed Jan 11 11:56:58 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Add Binary']
+INFO:root:Index of new row in questionsTracking: 270
+INFO:root:Index of new row in weeklyChart: 11
+INFO:__main__:
+Last Run at Wed Jan 11 12:03:18 2023 
+ --------------------------------------- 
+
