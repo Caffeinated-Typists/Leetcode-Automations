@@ -22715,3 +22715,13 @@ INFO:__main__:
 Last Run at Wed Jan 11 23:22:33 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Merge k Sorted Lists', 'Merge Two Sorted Lists', 'Add Two Numbers']
+INFO:root:Index of new row in questionsTracking: 272
+INFO:root:Index of new row in weeklyChart: 14
+INFO:root:Index of new row in weeklyChart: 15
+INFO:root:Index of new row in weeklyChart: 16
+INFO:__main__:
+Last Run at Wed Jan 11 23:51:33 2023 
+ --------------------------------------- 
+
