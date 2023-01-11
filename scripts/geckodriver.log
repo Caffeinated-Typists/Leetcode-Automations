@@ -1,0 +1,14 @@
+1673454234810	geckodriver	INFO	Listening on 127.0.0.1:60839
+1673454235129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--window-size=1920,1200" "--ignore-certificate-errors" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "60725" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBNr51C"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1673454241359	Marionette	INFO	Marionette enabled
+1673454241375	Marionette	INFO	Listening on port 44051
+Read port: 44051
+WebDriver BiDi listening on ws://127.0.0.1:60725
+1673454242468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBNr51C/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60725/devtools/browser/f4e1c79f-e50e-4edf-b3a5-520c6b344ab2
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+1673454307894	Marionette	INFO	Stopped listening on port 44051
