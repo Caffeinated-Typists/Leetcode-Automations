@@ -22769,3 +22769,13 @@ INFO:__main__:
 Last Run at Thu Jan 12 01:07:28 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Valid Anagram', 'Contains Duplicate', 'Linked List Cycle', 'Merge k Sorted Lists']
+INFO:root:Index of new row in weeklyChart: 20
+INFO:root:Index of new row in weeklyChart: 21
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Delete Columns to Make Sorted', 'Reverse String II']
+INFO:__main__:
+Last Run at Thu Jan 12 01:21:35 2023 
+ --------------------------------------- 
+
