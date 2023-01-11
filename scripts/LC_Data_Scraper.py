@@ -9,7 +9,7 @@ import parsedatetime as pdt
 
 
 TIME_DELTA_HOUR:int = 2
-TIME_DELTA_DAY:int = 1
+TIME_DELTA_DAY:int = 0
 LOG_PATH:str = "./geckodriver.log"
 EXE_PATH:str = "./geckodriver.exe"
 
