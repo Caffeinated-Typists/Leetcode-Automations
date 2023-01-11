@@ -28,9 +28,7 @@ jobs:
         working-directory: scripts
         env:  
           GOOGLE_API_CRED: ${{ secrets.GOOGLE_API_CRED }}
-
         run: |
-          echo "$GITHUB_WORKSPACE" >> $GITHUB_PATH
           python Sheets_API_Interface.py
           
       - name: commit files
