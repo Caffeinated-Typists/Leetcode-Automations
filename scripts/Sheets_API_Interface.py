@@ -31,7 +31,8 @@ with open(USERNAME_PATH, "r") as f:
 SCOPE = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
 # credentials = ServiceAccountCredentials.from_json_keyfile_name("creds.json", SCOPE)
 env_creds = eval(os.environ["GOOGLE_API_CRED"])
-
+# f = open(r'C:\Users\dell\Desktop\Projects\Leetcode-Automations\creds.json', 'r')
+# env_creds = json.load(f)
 credentials = ServiceAccountCredentials.from_json_keyfile_dict(env_creds, SCOPE)
 client = gspread.authorize(credentials)
 
