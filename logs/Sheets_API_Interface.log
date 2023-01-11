@@ -22422,3 +22422,45 @@ INFO:__main__:
 Last Run at Wed Jan 11 16:44:15 2023 
  --------------------------------------- 
 
+ERROR:__main__:Message: The element reference of <div class="flex h-14 items-center px-4 bg-fill-4 dark:bg-dark-fill-4"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:463:5
+element.resolveElement@chrome://remote/content/marionette/element.sys.mjs:674:11
+evaluate.fromJSON@chrome://remote/content/marionette/evaluate.sys.mjs:255:31
+evaluate.fromJSON@chrome://remote/content/marionette/evaluate.sys.mjs:263:29
+evaluate.fromJSON@chrome://remote/content/marionette/evaluate.sys.mjs:263:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:74:34
+Traceback (most recent call last):
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 105, in <module>
+    add_weekly_questions()
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 97, in add_weekly_questions
+    add_to_sheet(i)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 65, in add_to_sheet
+    questions:list[str] = LC_Data_Scraper.get_questions(username)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/LC_Data_Scraper.py", line 53, in get_questions
+    Child = (container.find_elements("xpath", "*")
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 443, in find_elements
+    return self._execute(Command.FIND_CHILD_ELEMENTS,
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 396, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <div class="flex h-14 items-center px-4 bg-fill-4 dark:bg-dark-fill-4"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:463:5
+element.resolveElement@chrome://remote/content/marionette/element.sys.mjs:674:11
+evaluate.fromJSON@chrome://remote/content/marionette/evaluate.sys.mjs:255:31
+evaluate.fromJSON@chrome://remote/content/marionette/evaluate.sys.mjs:263:29
+evaluate.fromJSON@chrome://remote/content/marionette/evaluate.sys.mjs:263:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:74:34
+
+INFO:__main__:
+Last Run at Wed Jan 11 16:56:11 2023 
+ --------------------------------------- 
+
