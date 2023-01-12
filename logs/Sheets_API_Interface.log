@@ -23026,3 +23026,11 @@ INFO:__main__:
 Last Run at Thu Jan 12 19:22:41 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Group Anagrams', 'Is Subsequence']
+INFO:root:Index of new row in questionsTracking: 276
+INFO:root:Index of new row in weeklyChart: 25
+INFO:__main__:
+Last Run at Thu Jan 12 19:48:23 2023 
+ --------------------------------------- 
+
