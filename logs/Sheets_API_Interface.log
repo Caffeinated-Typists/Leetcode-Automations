@@ -22855,3 +22855,13 @@ INFO:__main__:
 Last Run at Thu Jan 12 05:21:27 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Count Numbers with Unique Digits', 'Number of Nodes in the Sub-Tree With the Same Label']
+INFO:root:Index of new row in questionsTracking: 274
+INFO:root:Index of new row in weeklyChart: 22
+INFO:root:Index of new row in questionsTracking: 275
+INFO:root:Index of new row in weeklyChart: 23
+INFO:__main__:
+Last Run at Thu Jan 12 06:37:48 2023 
+ --------------------------------------- 
+
