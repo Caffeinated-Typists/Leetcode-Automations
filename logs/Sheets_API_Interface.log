@@ -24786,3 +24786,13 @@ INFO:__main__:
 Last Run at Mon Jan 16 01:57:45 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Number of Good Paths']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Maximize the Topmost Element After K Moves', 'X of a Kind in a Deck of Cards']
+INFO:root:Index of new row in questionsTracking: 297
+INFO:root:Index of new row in weeklyChart: 4
+INFO:__main__:
+Last Run at Mon Jan 16 02:07:27 2023 
+ --------------------------------------- 
+
