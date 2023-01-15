@@ -29,8 +29,6 @@ jobs:
         env:  
           GOOGLE_API_CRED: ${{ secrets.GOOGLE_API_CRED }}
         run: |
-          echo "$GITHUB_WORKSPACE" >> $GITHUB_PATH
-          cd scripts
           python resetTally.py
           
       - name: commit files
