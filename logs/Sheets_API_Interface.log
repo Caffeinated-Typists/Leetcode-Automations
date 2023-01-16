@@ -25030,3 +25030,15 @@ INFO:__main__:
 Last Run at Mon Jan 16 15:21:30 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Insert Interval', 'Longest Substring Without Repeating Characters']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Insert Interval']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Teemo Attacking', 'Merge Intervals', 'Length of Last Word', 'Insert Interval']
+INFO:root:Index of new row in questionsTracking: 300
+INFO:root:Index of new row in weeklyChart: 11
+INFO:__main__:
+Last Run at Mon Jan 16 15:46:27 2023 
+ --------------------------------------- 
+
