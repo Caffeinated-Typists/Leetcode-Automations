@@ -25042,3 +25042,19 @@ INFO:__main__:
 Last Run at Mon Jan 16 15:46:27 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Binary Search', 'Insert Interval']
+INFO:root:Index of new row in weeklyChart: 12
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Search a 2D Matrix', 'Find First and Last Position of Element in Sorted Array', 'Insert Interval']
+INFO:root:Index of new row in weeklyChart: 13
+INFO:root:Index of new row in questionsTracking: 301
+INFO:root:Index of new row in weeklyChart: 14
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Dota2 Senate', 'Teemo Attacking', 'Merge Intervals', 'Length of Last Word', 'Insert Interval']
+INFO:root:Index of new row in questionsTracking: 302
+INFO:root:Index of new row in weeklyChart: 15
+INFO:__main__:
+Last Run at Mon Jan 16 16:03:49 2023 
+ --------------------------------------- 
+
