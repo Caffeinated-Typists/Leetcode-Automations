@@ -25240,3 +25240,13 @@ INFO:__main__:
 Last Run at Mon Jan 16 23:22:17 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Sqrt(x)']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Unique Paths II', 'Unique Paths']
+INFO:root:Index of new row in questionsTracking: 304
+INFO:root:Index of new row in weeklyChart: 23
+INFO:__main__:
+Last Run at Mon Jan 16 23:47:42 2023 
+ --------------------------------------- 
+
