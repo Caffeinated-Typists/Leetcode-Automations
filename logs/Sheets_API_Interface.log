@@ -25715,3 +25715,12 @@ INFO:__main__:
 Last Run at Tue Jan 17 23:47:50 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Reverse String', 'Two Sum II - Input Array Is Sorted', 'Move Zeroes', 'Rotate Array', 'Squares of a Sorted Array']
+INFO:root:Got questions for devm4966
+INFO:root:['Longest Consecutive Sequence']
+INFO:root:Index of new row in weeklyChart: 36
+INFO:__main__:
+Last Run at Wed Jan 18 00:09:49 2023 
+ --------------------------------------- 
+
