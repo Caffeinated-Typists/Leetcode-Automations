@@ -25687,3 +25687,14 @@ INFO:__main__:
 Last Run at Tue Jan 17 22:57:56 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Two Sum II - Input Array Is Sorted', 'Move Zeroes', 'Rotate Array', 'Squares of a Sorted Array']
+INFO:root:Index of new row in weeklyChart: 32
+INFO:root:Index of new row in weeklyChart: 33
+INFO:root:Index of new row in weeklyChart: 34
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Symmetric Tree']
+INFO:__main__:
+Last Run at Tue Jan 17 23:07:59 2023 
+ --------------------------------------- 
+
