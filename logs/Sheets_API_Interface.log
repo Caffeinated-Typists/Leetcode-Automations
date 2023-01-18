@@ -26080,3 +26080,13 @@ INFO:__main__:
 Last Run at Wed Jan 18 17:56:24 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Two Sum II - Input Array Is Sorted', 'Move Zeroes']
+INFO:root:Got questions for Zynade
+INFO:root:['Non-overlapping Intervals', 'Minimum Moves to Equal Array Elements']
+INFO:root:Index of new row in questionsTracking: 315
+INFO:root:Index of new row in weeklyChart: 48
+INFO:__main__:
+Last Run at Wed Jan 18 18:27:12 2023 
+ --------------------------------------- 
+
