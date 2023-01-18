@@ -25984,3 +25984,13 @@ INFO:__main__:
 Last Run at Wed Jan 18 13:48:26 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['3Sum']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Remove Duplicates from Sorted List II', '3Sum']
+INFO:root:Index of new row in questionsTracking: 313
+INFO:root:Index of new row in weeklyChart: 46
+INFO:__main__:
+Last Run at Wed Jan 18 14:10:49 2023 
+ --------------------------------------- 
+
