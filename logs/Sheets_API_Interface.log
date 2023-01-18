@@ -25905,3 +25905,11 @@ INFO:__main__:
 Last Run at Wed Jan 18 10:21:29 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for devm4966
+INFO:root:['Permutations']
+INFO:root:Index of new row in questionsTracking: 311
+INFO:root:Index of new row in weeklyChart: 43
+INFO:__main__:
+Last Run at Wed Jan 18 10:44:12 2023 
+ --------------------------------------- 
+
