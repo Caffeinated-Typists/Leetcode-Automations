@@ -27987,3 +27987,11 @@ INFO:__main__:
 Last Run at Sat Jan 21 19:21:15 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for upalsci
+INFO:root:['Next Greater Element I']
+INFO:root:Index of new row in questionsTracking: 327
+INFO:root:Index of new row in weeklyChart: 78
+INFO:__main__:
+Last Run at Sat Jan 21 19:42:03 2023 
+ --------------------------------------- 
+
