@@ -29095,3 +29095,14 @@ INFO:__main__:
 Last Run at Mon Jan 23 17:07:15 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Longest Substring Without Repeating Characters']
+INFO:root:Index of new row in weeklyChart: 17
+INFO:root:Got questions for Sahilence
+INFO:root:['Global and Local Inversions']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['All Paths From Source to Target', 'Number of Provinces', 'Number of Islands', 'Find the Town Judge']
+INFO:__main__:
+Last Run at Mon Jan 23 17:21:42 2023 
+ --------------------------------------- 
+
