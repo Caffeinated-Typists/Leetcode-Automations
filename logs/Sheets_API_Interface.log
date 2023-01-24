@@ -30025,3 +30025,11 @@ INFO:__main__:
 Last Run at Wed Jan 25 02:54:50 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Snakes and Ladders']
+INFO:root:Index of new row in questionsTracking: 349
+INFO:root:Index of new row in weeklyChart: 30
+INFO:__main__:
+Last Run at Wed Jan 25 03:06:53 2023 
+ --------------------------------------- 
+
