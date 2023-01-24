@@ -29435,3 +29435,13 @@ INFO:__main__:
 Last Run at Tue Jan 24 11:47:56 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for upalsci
+INFO:root:['Integer Break', 'Game of Life', 'Valid Anagram']
+INFO:root:Index of new row in questionsTracking: 347
+INFO:root:Index of new row in weeklyChart: 27
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Merge Two Binary Trees']
+INFO:__main__:
+Last Run at Tue Jan 24 12:09:29 2023 
+ --------------------------------------- 
+
