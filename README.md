@@ -4,4 +4,4 @@ This project was made to track the progress of our college group for practicing 
 
 # How we achieved it ?
 
-We use selenium to scrape every user profile and check for questions submitted in the last 5 hours. The fresh questions are then updated to the Google sheet using Google API. The python script is executed every 15 minutes using Github Actions.
+We use selenium to scrape every user profile and check for questions submitted in the last 1 hours. The fresh questions are then updated to the Google sheet using Google API. The python script is executed every 15 minutes using Github Actions.
