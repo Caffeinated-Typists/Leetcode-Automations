@@ -30924,3 +30924,11 @@ INFO:__main__:
 Last Run at Fri Jan 27 00:21:34 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Cheapest Flights Within K Stops']
+INFO:root:Index of new row in questionsTracking: 355
+INFO:root:Index of new row in weeklyChart: 41
+INFO:__main__:
+Last Run at Fri Jan 27 00:42:02 2023 
+ --------------------------------------- 
+
