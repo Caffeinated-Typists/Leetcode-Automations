@@ -31669,3 +31669,11 @@ INFO:__main__:
 Last Run at Sat Jan 28 04:20:39 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Concatenated Words']
+INFO:root:Index of new row in questionsTracking: 360
+INFO:root:Index of new row in weeklyChart: 48
+INFO:__main__:
+Last Run at Sat Jan 28 04:43:48 2023 
+ --------------------------------------- 
+
