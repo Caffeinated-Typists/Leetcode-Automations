@@ -31961,3 +31961,13 @@ INFO:__main__:
 Last Run at Sat Jan 28 20:55:17 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['House Robber II', 'Jump Game', 'Jump Game II', 'Unique Paths', 'Find Minimum in Rotated Sorted Array', 'Search in Rotated Sorted Array']
+INFO:root:Index of new row in questionsTracking: 361
+INFO:root:Index of new row in weeklyChart: 52
+INFO:root:Index of new row in weeklyChart: 53
+INFO:root:Index of new row in weeklyChart: 54
+INFO:__main__:
+Last Run at Sat Jan 28 21:04:09 2023 
+ --------------------------------------- 
+
