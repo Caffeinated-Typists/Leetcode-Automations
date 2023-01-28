@@ -41,12 +41,13 @@ jobs:
           
       - name: commit files
         run: |
-          git add -A
-          git diff-index --quiet HEAD || (git commit -S -a -m "updated logs" --allow-empty)
+          git add *
+          git commit -S -m "Updated Logs"
+          git push --force
           
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main 
-          force: true
+      # - name: push changes
+      #   uses: ad-m/github-push-action@v0.6.0
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: main 
+      #     force: true
