@@ -32733,3 +32733,12 @@ INFO:__main__:
 Last Run at Sun Jan 29 22:03:19 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Remove Linked List Elements', 'Happy Number', 'Merge Two Sorted Lists']
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Reverse Linked List', 'Merge Two Sorted Lists']
+INFO:root:Index of new row in weeklyChart: 76
+INFO:__main__:
+Last Run at Sun Jan 29 22:19:00 2023 
+ --------------------------------------- 
+
