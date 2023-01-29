@@ -32697,3 +32697,13 @@ INFO:__main__:
 Last Run at Sun Jan 29 20:54:59 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for zubaida
+INFO:root:['Happy Number', 'Merge Two Sorted Lists', 'Linked List Cycle', 'Linked List Cycle II']
+INFO:root:Index of new row in questionsTracking: 368
+INFO:root:Index of new row in weeklyChart: 74
+INFO:root:Got questions for prakhar432
+INFO:root:['Remove Duplicates from Sorted Array']
+INFO:__main__:
+Last Run at Sun Jan 29 21:03:42 2023 
+ --------------------------------------- 
+
