@@ -32559,3 +32559,29 @@ INFO:__main__:
 Last Run at Sun Jan 29 17:43:41 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Permutation in String']
+INFO:root:Index of new row in weeklyChart: 65
+INFO:root:Got questions for richa21086
+INFO:root:['Difference Between Element Sum and Digit Sum of an Array']
+ERROR:__main__:{'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}
+Traceback (most recent call last):
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 105, in <module>
+    add_weekly_questions()
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 97, in add_weekly_questions
+    add_to_sheet(i)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 90, in add_to_sheet
+    weeklyChart.update(A1_notation(USERNAME_TO_INDEX[username], weekly_question_index[question]), "✔")
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/utils.py", line 671, in wrapper
+    return f(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/worksheet.py", line 847, in update
+    response = self.spreadsheet.values_update(
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/spreadsheet.py", line 226, in values_update
+    r = self.client.request("put", url, params=params, json=body)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/client.py", line 92, in request
+    raise APIError(response)
+gspread.exceptions.APIError: {'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}
+INFO:__main__:
+Last Run at Sun Jan 29 18:16:50 2023 
+ --------------------------------------- 
+
