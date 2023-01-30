@@ -45,7 +45,9 @@ jobs:
         run: |
           git add *
           git commit -S -m "Updated Logs"
-          git push --force
+          git tag -a -m "Bot Commit" "This commit was made by a bot"
+          git push main --force
+          git push --tags --force
           
       # - name: push changes
       #   uses: ad-m/github-push-action@v0.6.0
