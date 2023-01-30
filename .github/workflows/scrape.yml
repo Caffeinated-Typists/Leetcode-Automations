@@ -45,7 +45,7 @@ jobs:
         run: |
           git add *
           git commit -S -m "Updated Logs"
-          git tag -a -m "Bot Commit" "This commit was made by a bot"
+          git tag -a -m "Bot Commit" "Bot-Commit"
           git push main --force
           git push --tags --force
           
