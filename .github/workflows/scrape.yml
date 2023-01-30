@@ -46,7 +46,7 @@ jobs:
           git add *
           git commit -S -m "Updated Logs"
           git tag -a -m "Bot Commit" "Bot-Commit"
-          git push main --force
+          git push origin main --force
           git push --tags --force
           
       # - name: push changes
