@@ -45,9 +45,7 @@ jobs:
         run: |
           git add *
           git commit -S -m "Updated Logs"
-          git tag -s -a -m "Bot Commit" "Bot-Commit"
           git push origin main --force
-          git push --tags --force
           
       # - name: push changes
       #   uses: ad-m/github-push-action@v0.6.0
