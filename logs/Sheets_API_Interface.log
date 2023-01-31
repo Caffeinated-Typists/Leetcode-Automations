@@ -33707,3 +33707,14 @@ INFO:__main__:
 Last Run at Tue Jan 31 13:22:54 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for devm4966
+INFO:root:['Find Minimum in Rotated Sorted Array']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Best Time to Buy and Sell Stock with Cooldown', 'Best Time to Buy and Sell Stock with Transaction Fee']
+INFO:root:Index of new row in weeklyChart: 31
+INFO:root:Index of new row in questionsTracking: 377
+INFO:root:Index of new row in weeklyChart: 32
+INFO:__main__:
+Last Run at Tue Jan 31 13:51:40 2023 
+ --------------------------------------- 
+
