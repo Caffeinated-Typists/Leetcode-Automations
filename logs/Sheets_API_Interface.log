@@ -33730,3 +33730,18 @@ INFO:__main__:
 Last Run at Tue Jan 31 14:23:07 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Word Break', 'Decode Ways', 'Arithmetic Slices', 'Longest Increasing Subsequence']
+INFO:root:Index of new row in questionsTracking: 378
+INFO:root:Index of new row in weeklyChart: 33
+INFO:root:Index of new row in questionsTracking: 379
+INFO:root:Index of new row in weeklyChart: 34
+INFO:root:Index of new row in questionsTracking: 380
+INFO:root:Index of new row in weeklyChart: 35
+INFO:root:Index of new row in weeklyChart: 36
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Best Time to Buy and Sell Stock with Cooldown', 'Best Time to Buy and Sell Stock with Transaction Fee']
+INFO:__main__:
+Last Run at Tue Jan 31 14:47:28 2023 
+ --------------------------------------- 
+
