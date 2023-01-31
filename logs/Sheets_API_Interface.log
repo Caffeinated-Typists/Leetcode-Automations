@@ -33862,3 +33862,83 @@ INFO:__main__:
 Last Run at Tue Jan 31 23:12:22 2023 
  --------------------------------------- 
 
+ERROR:__main__:Message: stale element reference: element is not attached to the page document
+  (Session info: headless MicrosoftEdge=109.0.1518.61)
+Stacktrace:
+#0 0x56459f9bdda3 <unknown>
+#1 0x56459f750861 <unknown>
+#2 0x56459f754409 <unknown>
+#3 0x56459f7541fa <unknown>
+#4 0x56459f7544d7 <unknown>
+#5 0x56459f78c635 <unknown>
+#6 0x56459f78cbb1 <unknown>
+#7 0x56459f783923 <unknown>
+#8 0x56459f7af0bd <unknown>
+#9 0x56459f78346f <unknown>
+#10 0x56459f7af25e <unknown>
+#11 0x56459f7c68ea <unknown>
+#12 0x56459f7aee63 <unknown>
+#13 0x56459f781989 <unknown>
+#14 0x56459f782bde <unknown>
+#15 0x56459f9ff178 <unknown>
+#16 0x56459fa01492 <unknown>
+#17 0x56459fa00e7f <unknown>
+#18 0x56459fa01be5 <unknown>
+#19 0x56459f9ed82b <unknown>
+#20 0x56459fa01f9e <unknown>
+#21 0x56459f9e2346 <unknown>
+#22 0x56459fa1dc68 <unknown>
+#23 0x56459fa1dda0 <unknown>
+#24 0x56459fa37e36 <unknown>
+#25 0x7f8395982b43 <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 105, in <module>
+    add_weekly_questions()
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 97, in add_weekly_questions
+    add_to_sheet(i)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 65, in add_to_sheet
+    questions:list[str] = LC_Data_Scraper.get_questions(username)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/LC_Data_Scraper.py", line 52, in get_questions
+    Child = (container.find_elements("xpath", "*")
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 456, in find_elements
+    return self._execute(Command.FIND_CHILD_ELEMENTS, {"using": by, "value": value})["value"]
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: headless MicrosoftEdge=109.0.1518.61)
+Stacktrace:
+#0 0x56459f9bdda3 <unknown>
+#1 0x56459f750861 <unknown>
+#2 0x56459f754409 <unknown>
+#3 0x56459f7541fa <unknown>
+#4 0x56459f7544d7 <unknown>
+#5 0x56459f78c635 <unknown>
+#6 0x56459f78cbb1 <unknown>
+#7 0x56459f783923 <unknown>
+#8 0x56459f7af0bd <unknown>
+#9 0x56459f78346f <unknown>
+#10 0x56459f7af25e <unknown>
+#11 0x56459f7c68ea <unknown>
+#12 0x56459f7aee63 <unknown>
+#13 0x56459f781989 <unknown>
+#14 0x56459f782bde <unknown>
+#15 0x56459f9ff178 <unknown>
+#16 0x56459fa01492 <unknown>
+#17 0x56459fa00e7f <unknown>
+#18 0x56459fa01be5 <unknown>
+#19 0x56459f9ed82b <unknown>
+#20 0x56459fa01f9e <unknown>
+#21 0x56459f9e2346 <unknown>
+#22 0x56459fa1dc68 <unknown>
+#23 0x56459fa1dda0 <unknown>
+#24 0x56459fa37e36 <unknown>
+#25 0x7f8395982b43 <unknown>
+
+INFO:__main__:
+Last Run at Tue Jan 31 23:22:10 2023 
+ --------------------------------------- 
+
