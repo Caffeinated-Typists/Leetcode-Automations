@@ -34301,3 +34301,15 @@ INFO:__main__:
 Last Run at Wed Feb 01 23:51:52 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Min Stack']
+INFO:root:Index of new row in questionsTracking: 387
+INFO:root:Index of new row in weeklyChart: 47
+INFO:root:Got questions for devm4966
+INFO:root:['Car Fleet']
+INFO:root:Index of new row in questionsTracking: 388
+INFO:root:Index of new row in weeklyChart: 48
+INFO:__main__:
+Last Run at Thu Feb 02 00:12:19 2023 
+ --------------------------------------- 
+
