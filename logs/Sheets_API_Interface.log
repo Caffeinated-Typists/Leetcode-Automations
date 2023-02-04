@@ -35473,3 +35473,13 @@ INFO:__main__:
 Last Run at Sat Feb 04 20:46:29 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Next Greater Element I']
+INFO:root:Got questions for Sahilence
+INFO:root:['Best Time to Buy and Sell Stock IV', 'Best Time to Buy and Sell Stock III', 'Best Time to Buy and Sell Stock II', 'Longest Common Subsequence']
+INFO:root:Index of new row in questionsTracking: 402
+INFO:root:Index of new row in weeklyChart: 76
+INFO:__main__:
+Last Run at Sat Feb 04 20:59:35 2023 
+ --------------------------------------- 
+
