@@ -36566,3 +36566,11 @@ INFO:__main__:
 Last Run at Tue Feb 07 01:22:58 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Decode Ways', 'Subsets II', 'Sort Colors', 'Longest Palindromic Substring', 'Shuffle the Array']
+INFO:root:Index of new row in weeklyChart: 6
+INFO:root:Index of new row in weeklyChart: 7
+INFO:__main__:
+Last Run at Tue Feb 07 01:48:45 2023 
+ --------------------------------------- 
+
