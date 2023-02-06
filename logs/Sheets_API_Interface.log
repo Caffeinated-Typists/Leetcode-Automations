@@ -36455,3 +36455,11 @@ INFO:__main__:
 Last Run at Mon Feb 06 20:00:55 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for devm4966
+INFO:root:['Palindromic Substrings', 'Longest Palindromic Substring']
+INFO:root:Index of new row in questionsTracking: 416
+INFO:root:Index of new row in weeklyChart: 4
+INFO:__main__:
+Last Run at Mon Feb 06 20:11:37 2023 
+ --------------------------------------- 
+
