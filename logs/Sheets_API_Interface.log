@@ -36838,3 +36838,14 @@ INFO:__main__:
 Last Run at Tue Feb 07 18:03:23 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Remove Element', 'Unique Paths', 'Letter Case Permutation', 'Length of Last Word']
+INFO:root:Index of new row in weeklyChart: 16
+INFO:root:Index of new row in questionsTracking: 419
+INFO:root:Index of new row in weeklyChart: 17
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Unique Binary Search Trees']
+INFO:__main__:
+Last Run at Tue Feb 07 18:32:54 2023 
+ --------------------------------------- 
+
