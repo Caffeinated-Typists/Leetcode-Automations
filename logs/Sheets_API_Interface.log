@@ -36939,3 +36939,11 @@ INFO:__main__:
 Last Run at Tue Feb 07 23:13:36 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for devm4966
+INFO:root:['Maximum Number of Balloons']
+INFO:root:Index of new row in questionsTracking: 420
+INFO:root:Index of new row in weeklyChart: 18
+INFO:__main__:
+Last Run at Tue Feb 07 23:24:24 2023 
+ --------------------------------------- 
+
