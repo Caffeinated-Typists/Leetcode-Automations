@@ -37689,3 +37689,11 @@ INFO:__main__:
 Last Run at Thu Feb 09 23:52:20 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Intersection of Two Linked Lists']
+INFO:root:Index of new row in questionsTracking: 425
+INFO:root:Index of new row in weeklyChart: 33
+INFO:__main__:
+Last Run at Fri Feb 10 00:12:54 2023 
+ --------------------------------------- 
+
