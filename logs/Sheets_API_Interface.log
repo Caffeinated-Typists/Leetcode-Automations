@@ -37567,3 +37567,11 @@ INFO:__main__:
 Last Run at Thu Feb 09 14:23:31 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['First Missing Positive']
+INFO:root:Index of new row in questionsTracking: 424
+INFO:root:Index of new row in weeklyChart: 32
+INFO:__main__:
+Last Run at Thu Feb 09 14:47:55 2023 
+ --------------------------------------- 
+
