@@ -38044,3 +38044,9 @@ INFO:__main__:
 Last Run at Sat Feb 11 02:08:43 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for upalsci
+INFO:root:['Palindromic Substrings', 'Fruit Into Baskets', 'Climbing Stairs']
+INFO:__main__:
+Last Run at Sat Feb 11 02:22:45 2023 
+ --------------------------------------- 
+
