@@ -38577,3 +38577,11 @@ INFO:__main__:
 Last Run at Sun Feb 12 15:09:34 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Longest Palindromic Subsequence']
+INFO:root:Index of new row in questionsTracking: 431
+INFO:root:Index of new row in weeklyChart: 43
+INFO:__main__:
+Last Run at Sun Feb 12 15:22:41 2023 
+ --------------------------------------- 
+
