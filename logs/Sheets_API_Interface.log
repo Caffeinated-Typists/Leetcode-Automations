@@ -38853,3 +38853,10 @@ INFO:__main__:
 Last Run at Mon Feb 13 01:23:11 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Is Subsequence', 'Longest Increasing Subsequence', 'Longest Common Subsequence', 'Maximal Square']
+INFO:root:Index of new row in weeklyChart: 17
+INFO:__main__:
+Last Run at Mon Feb 13 01:47:52 2023 
+ --------------------------------------- 
+
