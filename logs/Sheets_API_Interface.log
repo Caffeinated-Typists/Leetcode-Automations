@@ -38807,3 +38807,20 @@ INFO:__main__:
 Last Run at Mon Feb 13 00:23:04 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Shuffle the Array']
+INFO:root:Got questions for richa21086
+INFO:root:['Nim Game', 'Maximum Count of Positive Integer and Negative Integer', 'X of a Kind in a Deck of Cards']
+INFO:root:Got questions for Sahilence
+INFO:root:['Nim Game', 'Plus One', 'Happy Number']
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Perfect Number', 'Most Frequent Even Element']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Longest Common Subsequence', 'Maximal Square']
+INFO:root:Index of new row in weeklyChart: 14
+INFO:root:Index of new row in questionsTracking: 434
+INFO:root:Index of new row in weeklyChart: 15
+INFO:__main__:
+Last Run at Mon Feb 13 00:43:56 2023 
+ --------------------------------------- 
+
