@@ -38696,3 +38696,11 @@ INFO:__main__:
 Last Run at Sun Feb 12 22:26:25 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Perfect Number']
+INFO:root:Index of new row in questionsTracking: 432
+INFO:root:Index of new row in weeklyChart: 45
+INFO:__main__:
+Last Run at Sun Feb 12 22:44:54 2023 
+ --------------------------------------- 
+
