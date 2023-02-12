@@ -38739,3 +38739,19 @@ INFO:__main__:
 Last Run at Sun Feb 12 23:22:57 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Shuffle the Array', 'Majority Element', 'Climbing Stairs', 'Perfect Number']
+INFO:root:Got questions for richa21086
+INFO:root:['Nim Game', 'Maximum Count of Positive Integer and Negative Integer', 'X of a Kind in a Deck of Cards', 'Search Insert Position']
+INFO:root:Index of new row in questionsTracking: 433
+INFO:root:Index of new row in weeklyChart: 51
+INFO:root:Index of new row in weeklyChart: 52
+INFO:root:Got questions for Sahilence
+INFO:root:['Nim Game', 'Plus One', 'Happy Number', 'Path Sum']
+INFO:root:Index of new row in weeklyChart: 53
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Perfect Number', 'Most Frequent Even Element', 'Majority Element']
+INFO:__main__:
+Last Run at Sun Feb 12 23:50:24 2023 
+ --------------------------------------- 
+
