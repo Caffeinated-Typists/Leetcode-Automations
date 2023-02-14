@@ -39589,3 +39589,11 @@ INFO:__main__:
 Last Run at Wed Feb 15 00:12:20 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Self Dividing Numbers', 'Isomorphic Strings']
+INFO:root:Index of new row in questionsTracking: 439
+INFO:root:Index of new row in weeklyChart: 37
+INFO:__main__:
+Last Run at Wed Feb 15 00:23:24 2023 
+ --------------------------------------- 
+
