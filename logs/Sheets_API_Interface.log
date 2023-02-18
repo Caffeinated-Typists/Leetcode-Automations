@@ -40915,3 +40915,15 @@ INFO:__main__:
 Last Run at Sat Feb 18 17:22:59 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Sahilence
+INFO:root:['N-Queens', 'N-Queens II']
+INFO:root:Index of new row in questionsTracking: 442
+INFO:root:Index of new row in weeklyChart: 44
+INFO:root:Index of new row in questionsTracking: 443
+INFO:root:Index of new row in weeklyChart: 45
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Invert Binary Tree']
+INFO:__main__:
+Last Run at Sat Feb 18 18:00:36 2023 
+ --------------------------------------- 
+
