@@ -40967,3 +40967,11 @@ INFO:__main__:
 Last Run at Sat Feb 18 20:23:05 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Append Characters to String to Make Subsequence']
+INFO:root:Index of new row in questionsTracking: 444
+INFO:root:Index of new row in weeklyChart: 46
+INFO:__main__:
+Last Run at Sat Feb 18 20:46:41 2023 
+ --------------------------------------- 
+
