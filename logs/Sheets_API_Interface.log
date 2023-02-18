@@ -41039,3 +41039,13 @@ INFO:__main__:
 Last Run at Sun Feb 19 00:10:53 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for upalsci
+INFO:root:['Self Dividing Numbers']
+INFO:root:Got questions for Sahilence
+INFO:root:['Valid Parenthesis String', 'Min Cost Climbing Stairs', 'Max Area of Island']
+INFO:root:Index of new row in questionsTracking: 445
+INFO:root:Index of new row in weeklyChart: 49
+INFO:__main__:
+Last Run at Sun Feb 19 00:23:11 2023 
+ --------------------------------------- 
+
