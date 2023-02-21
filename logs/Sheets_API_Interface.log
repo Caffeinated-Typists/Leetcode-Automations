@@ -42002,3 +42002,11 @@ INFO:__main__:
 Last Run at Tue Feb 21 21:53:37 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Sahilence
+INFO:root:['Find Total Time Spent by Each Employee']
+INFO:root:Index of new row in questionsTracking: 452
+INFO:root:Index of new row in weeklyChart: 63
+INFO:__main__:
+Last Run at Tue Feb 21 22:18:02 2023 
+ --------------------------------------- 
+
