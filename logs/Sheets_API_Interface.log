@@ -42978,3 +42978,15 @@ INFO:__main__:
 Last Run at Fri Feb 24 18:37:35 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for devm4966
+INFO:root:['Daily Leads and Partners']
+INFO:root:Index of new row in questionsTracking: 462
+INFO:root:Index of new row in weeklyChart: 77
+INFO:root:Got questions for richa21086
+INFO:root:['Swap Salary']
+INFO:root:Index of new row in questionsTracking: 463
+INFO:root:Index of new row in weeklyChart: 78
+INFO:__main__:
+Last Run at Fri Feb 24 19:04:32 2023 
+ --------------------------------------- 
+
