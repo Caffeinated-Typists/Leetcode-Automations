@@ -42938,3 +42938,11 @@ INFO:__main__:
 Last Run at Fri Feb 24 16:11:18 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Patients With a Condition', 'Group Sold Products By The Date', 'Duplicate Emails', 'Employees Earning More Than Their Managers', 'Combine Two Tables']
+INFO:root:Index of new row in questionsTracking: 461
+INFO:root:Index of new row in weeklyChart: 76
+INFO:__main__:
+Last Run at Fri Feb 24 16:22:56 2023 
+ --------------------------------------- 
+
