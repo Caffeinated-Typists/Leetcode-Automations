@@ -42926,3 +42926,15 @@ INFO:__main__:
 Last Run at Fri Feb 24 15:50:03 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Group Sold Products By The Date', 'Duplicate Emails', 'Employees Earning More Than Their Managers', 'Combine Two Tables']
+INFO:root:Index of new row in questionsTracking: 458
+INFO:root:Index of new row in weeklyChart: 73
+INFO:root:Index of new row in questionsTracking: 459
+INFO:root:Index of new row in weeklyChart: 74
+INFO:root:Index of new row in questionsTracking: 460
+INFO:root:Index of new row in weeklyChart: 75
+INFO:__main__:
+Last Run at Fri Feb 24 16:11:18 2023 
+ --------------------------------------- 
+
