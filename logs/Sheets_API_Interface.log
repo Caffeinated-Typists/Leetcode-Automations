@@ -43439,3 +43439,11 @@ INFO:__main__:
 Last Run at Sat Feb 25 23:23:09 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Combinations']
+INFO:root:Index of new row in questionsTracking: 472
+INFO:root:Index of new row in weeklyChart: 88
+INFO:__main__:
+Last Run at Sat Feb 25 23:50:57 2023 
+ --------------------------------------- 
+
