@@ -44069,3 +44069,11 @@ INFO:__main__:
 Last Run at Mon Feb 27 23:23:52 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Construct Quad Tree']
+INFO:root:Index of new row in questionsTracking: 473
+INFO:root:Index of new row in weeklyChart: 89
+INFO:__main__:
+Last Run at Mon Feb 27 23:53:14 2023 
+ --------------------------------------- 
+
