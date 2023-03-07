@@ -83,7 +83,7 @@ def add_to_sheet(username: str) -> None:
             weekly_question_index[question] = len(weekly_question_index) + WEEKLY_SHEET_ROW_OFFSET + 1
             # add the question to the weekly sheet
             weeklyChart.insert_row([question, "", "", "", "", "", "", "", "", "", ""], index=weekly_question_index[question])
-            logging.info(f"Index of new row in weeklyChart: {weekly_question_index[question]}")
+            # logging.info(f"Index of new row in weeklyChart: {weekly_question_index[question]}")
             weeklyQues.insert(len(weeklyQues), question)
 
         # update the sheet
