@@ -61,6 +61,7 @@ def A1_notation(col:int, row:int) -> str:
 def add_to_sheet(username: str) -> None:
     """Function to add the questions done by the user to the sheet"""
     question_cnt:int = int(weeklyChart.acell(A1_notation(USERNAME_TO_INDEX[username], QUESTION_CNT_ROW)).value)
+    print(question_cnt)
     # get the questions done by the user
     questions:list[str] = LC_Data_Scraper.get_questions(username)
     # only adding to logs if the list is not empty
