@@ -43,7 +43,7 @@ jobs:
           
       - name: commit files
         run: |
-          git add *
+          git add * -f
           git commit -S -m "Updated Logs"
           git push origin main --force
           
