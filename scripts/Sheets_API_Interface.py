@@ -93,7 +93,7 @@ def add_to_sheet(username: str) -> None:
             weeklyChart.format(A1_notation(USERNAME_TO_INDEX[username], weekly_question_index[question]), GREEN_CELL)
 
     # Update the number of questions done by the user
-    weeklyChart.update(A1_notation(USERNAME_TO_INDEX[username], QUESTION_CNT_ROW), question_cnt)
+    # weeklyChart.update(A1_notation(USERNAME_TO_INDEX[username], QUESTION_CNT_ROW), question_cnt)
 
 # adding weekly questions
 def add_weekly_questions() -> None:
