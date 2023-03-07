@@ -60,6 +60,7 @@ def A1_notation(col:int, row:int) -> str:
 
 def add_to_sheet(username: str) -> None:
     """Function to add the questions done by the user to the sheet"""
+    question_cnt:int = weeklyChart.acell(A1_notation(USERNAME_TO_INDEX[username], QUESTION_CNT_ROW)).value
     # get the questions done by the user
     questions:list[str] = LC_Data_Scraper.get_questions(username)
     # only adding to logs if the list is not empty
@@ -86,11 +87,13 @@ def add_to_sheet(username: str) -> None:
             weeklyQues.insert(len(weeklyQues), question)
 
         # update the sheet
-        weeklyChart.update(A1_notation(USERNAME_TO_INDEX[username], weekly_question_index[question]), "✔")
-        weeklyChart.format(A1_notation(USERNAME_TO_INDEX[username], weekly_question_index[question]), GREEN_CELL)
+        if weeklyChart.acell(A1_notation(USERNAME_TO_INDEX[username], weekly_question_index[question])).value != "✔":
+            question_cnt += 1
+            weeklyChart.update(A1_notation(USERNAME_TO_INDEX[username], weekly_question_index[question]), "✔")
+            weeklyChart.format(A1_notation(USERNAME_TO_INDEX[username], weekly_question_index[question]), GREEN_CELL)
 
     # Update the number of questions done by the user
-    weeklyChart.update(A1_notation(USERNAME_TO_INDEX[username], QUESTION_CNT_ROW), len(questions))
+    weeklyChart.update(A1_notation(USERNAME_TO_INDEX[username], QUESTION_CNT_ROW), question_cnt)
 
 # adding weekly questions
 def add_weekly_questions() -> None:
