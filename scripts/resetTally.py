@@ -23,10 +23,11 @@ def clear_and_tally() -> None:
         records = WeeklyChart.col_values(i)
         logging.info((records))
         Tally.update(Sheets.A1_notation(i, week_number + 1), sum([1 for record in records if record == IDENTIFYING_CHARACTER]))
+        # Tally.update(Sheets.A1_notation(i, week_number + 1), records[1])
 
     # clearing the sheet for the next week
-    # for i in range(2, NUMBER_OF_PEOPLE+2):
-    #     WeeklyChart.update(Sheets.A1_notation(i, 2), 0)
+    for i in range(2, NUMBER_OF_PEOPLE+2):
+        WeeklyChart.update(Sheets.A1_notation(i, 2), 0)
     WeeklyChart.delete_rows(3, 100)
 
 if __name__ == "__main__":
