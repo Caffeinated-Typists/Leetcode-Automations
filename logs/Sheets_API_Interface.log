@@ -48876,3 +48876,20 @@ INFO:__main__:
 Last Run at Tue Mar 07 09:19:01 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Divide Two Integers', 'Minimum Time to Complete Trips']
+INFO:root:Index of new row in questionsTracking: 480
+INFO:root:Index of new row in weeklyChart: 104
+ERROR:__main__:can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 109, in <module>
+    add_weekly_questions()
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 101, in add_weekly_questions
+    add_to_sheet(i)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 91, in add_to_sheet
+    question_cnt += 1
+TypeError: can only concatenate str (not "int") to str
+INFO:__main__:
+Last Run at Tue Mar 07 09:42:59 2023 
+ --------------------------------------- 
+
