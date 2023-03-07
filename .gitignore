@@ -130,6 +130,3 @@ dmypy.json
 #credentials
 creds.json
 .vscode
-
-#Adding logs
-logs/
