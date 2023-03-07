@@ -10,7 +10,8 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 import LC_Data_Scraper
 
-WEEKLY_SHEET_ROW_OFFSET:int = 1
+QUESTION_CNT_ROW:int = 2
+WEEKLY_SHEET_ROW_OFFSET:int = 2
 ALL_SHEET_ROW_OFFSET:int = 1
 USERNAME_PATH:str = "../misc/usernames.json"
 
@@ -31,8 +32,6 @@ with open(USERNAME_PATH, "r") as f:
 SCOPE = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
 # credentials = ServiceAccountCredentials.from_json_keyfile_name("creds.json", SCOPE)
 env_creds = eval(os.environ["GOOGLE_API_CRED"])
-# f = open(r'C:\Users\dell\Desktop\Projects\Leetcode-Automations\creds.json', 'r')
-# env_creds = json.load(f)
 credentials = ServiceAccountCredentials.from_json_keyfile_dict(env_creds, SCOPE)
 client = gspread.authorize(credentials)
 
@@ -89,7 +88,9 @@ def add_to_sheet(username: str) -> None:
         # update the sheet
         weeklyChart.update(A1_notation(USERNAME_TO_INDEX[username], weekly_question_index[question]), "✔")
         weeklyChart.format(A1_notation(USERNAME_TO_INDEX[username], weekly_question_index[question]), GREEN_CELL)
-        # time.sleep(5)
+
+    # Update the number of questions done by the user
+    weeklyChart.update(A1_notation(USERNAME_TO_INDEX[username], QUESTION_CNT_ROW), len(questions))
 
 # adding weekly questions
 def add_weekly_questions() -> None:
