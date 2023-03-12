@@ -28,9 +28,9 @@ def clear_and_tally() -> None:
         cnt_records = max(cnt_records, len(records) - 2)
 
     # clearing the sheet for the next week
-    for i in range(2, NUMBER_OF_PEOPLE+2):
+    for i in range(2, NUMBER_OF_PEOPLE + 2):
         WeeklyChart.update(Sheets.A1_notation(i, 2), 0)
-    WeeklyChart.delete_rows(3, cnt_records)
+    WeeklyChart.delete_rows(3, cnt_records + 2)
 
 if __name__ == "__main__":
     try:
