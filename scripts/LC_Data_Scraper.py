@@ -54,6 +54,9 @@ def get_questions(username: str) -> list[str]:
         
         # making sure that the questions were done only in the last one hour
         datetime_obj = cal.parseDT(Child[1].text)[0]
+        # A hack to make sure that the questions done at 11:50 PM on Sunday are not counted on Monday
+        if((datetime_obj.hour == 1) and (datetime_obj.minute == 0)):
+            datetime_obj.hour = 2
         cutoff = min(timedelta(hours=TIME_DELTA_HOUR, days=TIME_DELTA_DAY), timedelta(days=datetime.now().weekday(), hours=datetime.now().hour, minutes=datetime.now().minute, seconds=datetime.now().second, microseconds=datetime.now().microsecond))
         if (datetime.now() - datetime_obj < cutoff):
             if Child[0].text:
