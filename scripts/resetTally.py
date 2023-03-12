@@ -19,16 +19,18 @@ def clear_and_tally() -> None:
 
     # making the tally for this week
     week_number = len(Tally.col_values(1)[1:]) + 1
+    cnt_records:int = 0
     Tally.update(Sheets.A1_notation(1, week_number+1), f"Week {week_number}")
     for i in range(2, NUMBER_OF_PEOPLE+2):
         records = WeeklyChart.col_values(i)
         logging.info((records))
-        Tally.update(Sheets.A1_notation(i, week_number + 1), records[2])
+        Tally.update(Sheets.A1_notation(i, week_number + 1), records[1])
+        cnt_records = max(cnt_records, len(records) - 2)
 
     # clearing the sheet for the next week
     for i in range(2, NUMBER_OF_PEOPLE+2):
         WeeklyChart.update(Sheets.A1_notation(i, 2), 0)
-    WeeklyChart.delete_rows(3, 1000)
+    WeeklyChart.delete_rows(3, cnt_records)
 
 if __name__ == "__main__":
     try:
