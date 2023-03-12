@@ -16,7 +16,7 @@ ALL_SHEET_ROW_OFFSET:int = 1
 USERNAME_PATH:str = "../misc/usernames.json"
 
 logging.basicConfig(filename="../logs/Sheets_API_Interface.log", level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("API_Interface")
 
 GREEN_CELL:dict[str:dict[str:float]] = {"backgroundColor": 
                                             {"red": 0.0, 
