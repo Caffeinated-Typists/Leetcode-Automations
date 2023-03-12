@@ -23,7 +23,7 @@ def clear_and_tally() -> None:
     Tally.update(Sheets.A1_notation(1, week_number+1), f"Week {week_number}")
     for i in range(2, NUMBER_OF_PEOPLE+2):
         records = WeeklyChart.col_values(i)
-        logging.info((records))
+        logger.info(records)
         Tally.update(Sheets.A1_notation(i, week_number + 1), records[1])
         cnt_records = max(cnt_records, len(records) - 2)
 
