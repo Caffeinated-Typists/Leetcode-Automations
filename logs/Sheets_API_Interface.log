@@ -51961,3 +51961,9 @@ INFO:__main__:
 Last Run at Mon Mar 13 00:51:09 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for upalsci
+INFO:root:['Search in a Binary Search Tree', 'Majority Element', 'Max Consecutive Ones', 'Word Pattern', 'Happy Number', 'Group Anagrams']
+INFO:__main__:
+Last Run at Mon Mar 13 00:54:38 2023 
+ --------------------------------------- 
+
