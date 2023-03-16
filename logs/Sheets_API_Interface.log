@@ -53381,3 +53381,9 @@ INFO:API_Interface:
 Last Run at Thu Mar 16 23:51:45 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Reverse Linked List', 'Remove Nth Node From End of List']
+INFO:API_Interface:
+Last Run at Fri Mar 17 00:11:59 2023 
+ --------------------------------------- 
+
