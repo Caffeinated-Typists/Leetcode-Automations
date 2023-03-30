@@ -59073,3 +59073,28 @@ INFO:API_Interface:
 Last Run at Thu Mar 30 22:25:24 2023 
  --------------------------------------- 
 
+ERROR:API_Interface:{'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}
+Traceback (most recent call last):
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 109, in <module>
+    add_weekly_questions()
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 101, in add_weekly_questions
+    add_to_sheet(i)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 63, in add_to_sheet
+    question_cnt:int = int(weeklyChart.acell(A1_notation(USERNAME_TO_INDEX[username], QUESTION_CNT_ROW)).value)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/worksheet.py", line 219, in acell
+    return self.cell(
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/worksheet.py", line 248, in cell
+    data = self.get(
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/utils.py", line 671, in wrapper
+    return f(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/worksheet.py", line 713, in get
+    response = self.spreadsheet.values_get(range_name, params=params)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/spreadsheet.py", line 182, in values_get
+    r = self.client.request("get", url, params=params)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/gspread/client.py", line 92, in request
+    raise APIError(response)
+gspread.exceptions.APIError: {'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}
+INFO:API_Interface:
+Last Run at Thu Mar 30 22:47:50 2023 
+ --------------------------------------- 
+
