@@ -60187,3 +60187,18 @@ INFO:API_Interface:
 Last Run at Sun Apr 02 18:47:18 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Anirudh-S-Kumar
+INFO:root:['Elimination Game', 'Find the Difference', 'Find the Substring With Maximum Cost', 'Form Smallest Number From Two Digit Arrays', 'First Unique Character in a String', 'Lexicographical Numbers']
+INFO:root:Index of new row in questionsTracking: 535
+INFO:root:Got questions for devm4966
+INFO:root:['Last Stone Weight', 'Successful Pairs of Spells and Potions', 'Find the Duplicate Number', 'Find Median from Data Stream']
+INFO:root:Got questions for aakarsh_11235
+INFO:root:['Binary Search', 'Scramble String']
+INFO:root:Got questions for raghav_sakhuja
+INFO:root:['Successful Pairs of Spells and Potions', 'Binary Search', 'Sort an Array']
+INFO:root:Got questions for prakhar432
+INFO:root:['Binary Tree Preorder Traversal', 'Word Search', 'N-ary Tree Preorder Traversal']
+INFO:API_Interface:
+Last Run at Sun Apr 02 18:57:17 2023 
+ --------------------------------------- 
+
