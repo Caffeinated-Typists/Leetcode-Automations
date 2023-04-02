@@ -60300,3 +60300,9 @@ INFO:API_Interface:
 Last Run at Sun Apr 02 23:08:37 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for guptasameer112
+INFO:root:['Sqrt(x)', 'Add Binary', 'Length of Last Word', 'Search Insert Position', 'Remove Element', 'Remove Duplicates from Sorted Array', 'Merge Two Sorted Lists']
+INFO:API_Interface:
+Last Run at Sun Apr 02 23:23:01 2023 
+ --------------------------------------- 
+
