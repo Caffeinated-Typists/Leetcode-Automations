@@ -68709,3 +68709,20 @@ INFO:API_Interface:
 Last Run at Sun Apr 23 23:48:50 2023 
  --------------------------------------- 
 
+INFO:resetTally:['Vartika', '0']
+INFO:resetTally:['Zubaida', '0']
+INFO:resetTally:['Anirudh', '0']
+INFO:resetTally:['Dev', '6', '', '✔', '', '', '', '', '✔', '✔', '✔', '✔', '✔']
+INFO:resetTally:['Atharv', '1', '', '', '', '', '✔']
+INFO:resetTally:['Tintin', '0']
+INFO:resetTally:['Richa', '0']
+INFO:resetTally:['Sahil', '4', '', '✔', '✔', '', '', '', '', '', '', '', '', '', '', '', '✔', '', '', '', '', '', '', '', '✔']
+INFO:resetTally:['Poorvi', '0']
+INFO:resetTally:['Aakarsh', '7', '✔', '✔', '✔', '', '', '✔', '', '✔', '', '', '', '', '', '✔', '✔']
+INFO:resetTally:['Raghav', '6', '', '✔', '✔', '', '', '✔', '', '✔', '', '', '', '', '', '', '', '', '', '', '✔', '✔']
+INFO:resetTally:['Prakhar', '8', '', '', '', '✔', '', '', '', '', '', '', '', '✔', '✔', '', '', '✔', '✔', '✔', '', '', '✔', '✔']
+INFO:resetTally:['Sameer', '0']
+INFO:resetTally:
+Last Run at Mon Apr 24 00:05:12 2023 
+ --------------------------------------- 
+
