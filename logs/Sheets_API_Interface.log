@@ -72151,3 +72151,108 @@ INFO:API_Interface:
 Last Run at Wed May 03 06:45:24 2023 
  --------------------------------------- 
 
+ERROR:API_Interface:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div/div[2]/div/div[2]/div[3]/div/div/div[2]"}
+  (Session info: headless MicrosoftEdge=112.0.1722.58)
+Stacktrace:
+#0 0x560f296e5a23 <unknown>
+#1 0x560f293ffdd1 <unknown>
+#2 0x560f2943bf9f <unknown>
+#3 0x560f2943c251 <unknown>
+#4 0x560f29478844 <unknown>
+#5 0x560f2945ebdd <unknown>
+#6 0x560f294767e6 <unknown>
+#7 0x560f2945e983 <unknown>
+#8 0x560f29431001 <unknown>
+#9 0x560f2943223e <unknown>
+#10 0x560f296b368b <unknown>
+#11 0x560f296b5ff9 <unknown>
+#12 0x560f296b59ff <unknown>
+#13 0x560f296b6755 <unknown>
+#14 0x560f296bd5db <unknown>
+#15 0x560f296b6b0e <unknown>
+#16 0x560f296966b0 <unknown>
+#17 0x560f296d2cc8 <unknown>
+#18 0x560f296d2e04 <unknown>
+#19 0x560f296dfcf6 <unknown>
+#20 0x7f08fd24bb43 <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/LC_Data_Scraper.py", line 43, in get_questions
+    Table = browser.find_element("xpath",
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div[2]/div[5]/div/div/div[2]"}
+  (Session info: headless MicrosoftEdge=112.0.1722.58)
+Stacktrace:
+#0 0x560f296e5a23 <unknown>
+#1 0x560f293ffdd1 <unknown>
+#2 0x560f2943bf9f <unknown>
+#3 0x560f2943c251 <unknown>
+#4 0x560f29478844 <unknown>
+#5 0x560f2945ebdd <unknown>
+#6 0x560f294767e6 <unknown>
+#7 0x560f2945e983 <unknown>
+#8 0x560f29431001 <unknown>
+#9 0x560f2943223e <unknown>
+#10 0x560f296b368b <unknown>
+#11 0x560f296b5ff9 <unknown>
+#12 0x560f296b59ff <unknown>
+#13 0x560f296b6755 <unknown>
+#14 0x560f296bd5db <unknown>
+#15 0x560f296b6b0e <unknown>
+#16 0x560f296966b0 <unknown>
+#17 0x560f296d2cc8 <unknown>
+#18 0x560f296d2e04 <unknown>
+#19 0x560f296dfcf6 <unknown>
+#20 0x7f08fd24bb43 <unknown>
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 109, in <module>
+    add_weekly_questions()
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 101, in add_weekly_questions
+    add_to_sheet(i)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/Sheets_API_Interface.py", line 65, in add_to_sheet
+    questions:list[str] = LC_Data_Scraper.get_questions(username)
+  File "/home/runner/work/Leetcode-Automations/Leetcode-Automations/scripts/LC_Data_Scraper.py", line 46, in get_questions
+    Table = browser.find_element("xpath",
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div/div[2]/div/div[2]/div[3]/div/div/div[2]"}
+  (Session info: headless MicrosoftEdge=112.0.1722.58)
+Stacktrace:
+#0 0x560f296e5a23 <unknown>
+#1 0x560f293ffdd1 <unknown>
+#2 0x560f2943bf9f <unknown>
+#3 0x560f2943c251 <unknown>
+#4 0x560f29478844 <unknown>
+#5 0x560f2945ebdd <unknown>
+#6 0x560f294767e6 <unknown>
+#7 0x560f2945e983 <unknown>
+#8 0x560f29431001 <unknown>
+#9 0x560f2943223e <unknown>
+#10 0x560f296b368b <unknown>
+#11 0x560f296b5ff9 <unknown>
+#12 0x560f296b59ff <unknown>
+#13 0x560f296b6755 <unknown>
+#14 0x560f296bd5db <unknown>
+#15 0x560f296b6b0e <unknown>
+#16 0x560f296966b0 <unknown>
+#17 0x560f296d2cc8 <unknown>
+#18 0x560f296d2e04 <unknown>
+#19 0x560f296dfcf6 <unknown>
+#20 0x7f08fd24bb43 <unknown>
+
+INFO:API_Interface:
+Last Run at Wed May 03 07:40:32 2023 
+ --------------------------------------- 
+
