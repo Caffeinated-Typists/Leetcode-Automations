@@ -75141,3 +75141,9 @@ INFO:API_Interface:
 Last Run at Thu May 11 02:23:11 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Binary Tree Right Side View', 'Same Tree', 'Lowest Common Ancestor of a Binary Tree', 'Lowest Common Ancestor of a Binary Search Tree', 'Invert Binary Tree', 'Minimize Deviation in Array']
+INFO:API_Interface:
+Last Run at Thu May 11 02:46:35 2023 
+ --------------------------------------- 
+
