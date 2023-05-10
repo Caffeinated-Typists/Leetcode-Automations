@@ -75122,3 +75122,9 @@ INFO:API_Interface:
 Last Run at Thu May 11 01:23:06 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Lowest Common Ancestor of a Binary Search Tree', 'Invert Binary Tree', 'Minimize Deviation in Array']
+INFO:API_Interface:
+Last Run at Thu May 11 01:51:00 2023 
+ --------------------------------------- 
+
