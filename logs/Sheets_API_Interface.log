@@ -75165,3 +75165,9 @@ INFO:API_Interface:
 Last Run at Thu May 11 03:23:18 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for Zynade
+INFO:root:['Validate Binary Search Tree', 'Subtree of Another Tree', 'Binary Tree Right Side View']
+INFO:API_Interface:
+Last Run at Thu May 11 03:47:20 2023 
+ --------------------------------------- 
+
