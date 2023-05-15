@@ -77593,3 +77593,9 @@ INFO:API_Interface:
 Last Run at Mon May 15 19:59:22 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for prakhar432
+INFO:root:['Possible Bipartition', 'Is Graph Bipartite?']
+INFO:API_Interface:
+Last Run at Mon May 15 20:10:16 2023 
+ --------------------------------------- 
+
