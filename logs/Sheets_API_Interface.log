@@ -80102,3 +80102,9 @@ INFO:API_Interface:
 Last Run at Sat May 20 10:44:39 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for upalsci
+INFO:root:['Longest Increasing Subsequence', 'Next Greater Element II']
+INFO:API_Interface:
+Last Run at Sat May 20 10:57:46 2023 
+ --------------------------------------- 
+
