@@ -84568,3 +84568,11 @@ INFO:API_Interface:
 Last Run at Sun May 28 20:23:18 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Nim Game', 'Stone Game II', 'Stone Game', 'Kth Largest Element in a Stream', 'Matchsticks to Square']
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Find Pivot Index', 'Array Partition', 'Subarray Sum Equals K']
+INFO:API_Interface:
+Last Run at Sun May 28 20:45:28 2023 
+ --------------------------------------- 
+
