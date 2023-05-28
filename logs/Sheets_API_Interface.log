@@ -84592,3 +84592,12 @@ INFO:API_Interface:
 Last Run at Sun May 28 21:08:19 2023 
  --------------------------------------- 
 
+INFO:root:Got questions for vartika_7
+INFO:root:['Jump Game', 'Last Stone Weight II', 'Nim Game', 'Stone Game II', 'Stone Game', 'Kth Largest Element in a Stream', 'Matchsticks to Square']
+INFO:root:Index of new row in questionsTracking: 638
+INFO:root:Got questions for Poorvi_21
+INFO:root:['Find Pivot Index']
+INFO:API_Interface:
+Last Run at Sun May 28 21:23:15 2023 
+ --------------------------------------- 
+
