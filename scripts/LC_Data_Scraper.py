@@ -44,7 +44,7 @@ def get_questions(username: str) -> list[str]:
                                 r'/html/body/div[1]/div/div[2]/div/div[2]/div[5]/div/div/div[2]')
     except selenium.common.exceptions.NoSuchElementException:
         Table = browser.find_element("xpath",
-                                r'//*[@id="__next"]/div/div[2]/div/div[2]/div[3]/div/div/div[2]')
+                                r'/html/body/div[1]/div/div[2]/div/div[2]/div[3]/div/div/div[2]')
     
     Containers = Table.find_elements("xpath", "*")
 
@@ -63,9 +63,6 @@ def get_questions(username: str) -> list[str]:
                 rval.append(Child[0].text)
 
     return rval
-
-
-
 
 if __name__ == "__main__":
     print(get_questions("aakarsh_11235"))
