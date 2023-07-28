@@ -1,8 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options as EdgeOptions
+from selenium.webdriver.chrome.options import Options as ChromeOptions
 from datetime import datetime, timedelta
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.chrome.service import Service as ChromeService
 import selenium.common.exceptions
 import time
 import parsedatetime as pdt
@@ -14,7 +17,7 @@ LOG_PATH:str = "./geckodriver.log"
 EXE_PATH:str = "./geckodriver.exe"
 
 cal = pdt.Calendar()
-edge_options = EdgeOptions()
+edge_options = ChromeOptions()
 options = [
     "--headless",
     "--disable-gpu",
@@ -28,7 +31,8 @@ options = [
 for option in options:
     edge_options.add_argument(option)
 
-browser = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()), options=edge_options)
+browser = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=edge_options)
+
 
 # getting the questions done in the past 24 hours
 def get_questions(username: str) -> list[str]:
