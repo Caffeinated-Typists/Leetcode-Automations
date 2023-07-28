@@ -28,7 +28,7 @@ options = [
 for option in options:
     edge_options.add_argument(option)
 
-browser = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager("temp", "112.0.5614.0").install()), options=edge_options)
+browser = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager("100.0.1156.1/edgedriver_linux64.zip").install()), options=edge_options)
 
 # getting the questions done in the past 24 hours
 def get_questions(username: str) -> list[str]:
